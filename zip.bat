@@ -1,0 +1,1 @@
+"C:\Users\brae\MomentumDev\bin\bspzip.exe" -game "C:\Users\brae\MomentumDev\momentum" -repack -compress "sj_NaissanceE.bsp"

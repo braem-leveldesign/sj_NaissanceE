@@ -1,0 +1,1290 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8591"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "1"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(0 0 0)"
+			"angle" "[0 0 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-83.9041 41.556 0)"
+			"zoom" "0.895795"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(-83.4309 0 -19.4958)"
+			"zoom" "0.746496"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "58"
+	"classname" "propper_model"
+	"autocenter" "0"
+	"concave" "1"
+	"disp_nowarp" "0"
+	"mass" "0.0"
+	"mat_nonormal" "0"
+	"materialpath" "models/naissancee/prop11"
+	"modelname" "naissancee/prop11"
+	"origin" "0 0 0"
+	"scale" "1.0"
+	"smoothangle" "45"
+	"smoothing" "1"
+	"snaptogrid" "0"
+	"sourcefolder" "c:/propsource"
+	"surfaceprop" "no_decal"
+	"weldvertices" ".01"
+	solid
+	{
+		"id" "6"
+		side
+		{
+			"id" "121"
+			"plane" "(-368 32 -48) (-192 32 -48) (-192 32 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -368 32 -48"
+				"point" "1 -192 32 -48"
+				"point" "2 -192 32 48"
+				"point" "3 -368 32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 1 0] 0.5"
+			"vaxis" "[-1 0 0 64] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "120"
+			"plane" "(-192 -32 -48) (-192 32 -48) (-368 32 -48)"
+			point_data
+			{
+				"numpts" "3"
+				"point" "0 -192 -32 -48"
+				"point" "1 -192 32 -48"
+				"point" "2 -368 32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
+			"uaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "119"
+			"plane" "(-192 -32 48) (-368 32 48) (-192 32 48)"
+			point_data
+			{
+				"numpts" "3"
+				"point" "0 -192 -32 48"
+				"point" "1 -368 32 48"
+				"point" "2 -192 32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
+			"uaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "118"
+			"plane" "(-192 -32 -48) (-192 -32 48) (-192 32 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -192 -32 -48"
+				"point" "1 -192 -32 48"
+				"point" "2 -192 32 48"
+				"point" "3 -192 32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 1 0] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "117"
+			"plane" "(-192 -32 48) (-192 -32 -48) (-368 32 -48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -192 -32 48"
+				"point" "1 -192 -32 -48"
+				"point" "2 -368 32 -48"
+				"point" "3 -368 32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 1 0] 0.5"
+			"vaxis" "[-1 0 0 64] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "14"
+		side
+		{
+			"id" "127"
+			"plane" "(96 16 -40) (96 16 -24) (-96 16 -24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 16 -40"
+				"point" "1 96 16 -24"
+				"point" "2 -96 16 -24"
+				"point" "3 -96 16 -40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "126"
+			"plane" "(-96 0 -40) (-96 0 -24) (96 0 -24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 0 -40"
+				"point" "1 -96 0 -24"
+				"point" "2 96 0 -24"
+				"point" "3 96 0 -40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "125"
+			"plane" "(96 16 -40) (-96 16 -40) (-96 0 -40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 16 -40"
+				"point" "1 -96 16 -40"
+				"point" "2 -96 0 -40"
+				"point" "3 96 0 -40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124"
+			"plane" "(96 0 -24) (-96 0 -24) (-96 16 -24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 0 -24"
+				"point" "1 -96 0 -24"
+				"point" "2 -96 16 -24"
+				"point" "3 96 16 -24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "123"
+			"plane" "(96 16 -24) (96 16 -40) (96 0 -40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 16 -24"
+				"point" "1 96 16 -40"
+				"point" "2 96 0 -40"
+				"point" "3 96 0 -24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 16] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "122"
+			"plane" "(-96 0 -24) (-96 0 -40) (-96 16 -40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 0 -24"
+				"point" "1 -96 0 -40"
+				"point" "2 -96 16 -40"
+				"point" "3 -96 16 -24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 16] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "133"
+			"plane" "(96 32 48) (96 32 -48) (192 32 -48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 32 48"
+				"point" "1 96 32 -48"
+				"point" "2 192 32 -48"
+				"point" "3 192 32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 -1 0] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "132"
+			"plane" "(192 -32 48) (192 -32 -48) (96 -32 -48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 192 -32 48"
+				"point" "1 192 -32 -48"
+				"point" "2 96 -32 -48"
+				"point" "3 96 -32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 -1 0] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "131"
+			"plane" "(96 32 48) (192 32 48) (192 -32 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 32 48"
+				"point" "1 192 32 48"
+				"point" "2 192 -32 48"
+				"point" "3 96 -32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
+			"uaxis" "[-1 0 0 64] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "130"
+			"plane" "(96 -32 -48) (192 -32 -48) (192 32 -48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -32 -48"
+				"point" "1 192 -32 -48"
+				"point" "2 192 32 -48"
+				"point" "3 96 32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
+			"uaxis" "[-1 0 0 64] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "129"
+			"plane" "(96 32 -48) (96 32 48) (96 -32 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 32 -48"
+				"point" "1 96 32 48"
+				"point" "2 96 -32 48"
+				"point" "3 96 -32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 -1 0] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "128"
+			"plane" "(192 -32 -48) (192 -32 48) (192 32 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 192 -32 -48"
+				"point" "1 192 -32 48"
+				"point" "2 192 32 48"
+				"point" "3 192 32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 -1 0] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "4"
+		side
+		{
+			"id" "138"
+			"plane" "(368 32 48) (192 32 48) (192 32 -48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 368 32 48"
+				"point" "1 192 32 48"
+				"point" "2 192 32 -48"
+				"point" "3 368 32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 -1 0] 0.5"
+			"vaxis" "[1 0 0 -64] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "137"
+			"plane" "(192 -32 48) (192 32 48) (368 32 48)"
+			point_data
+			{
+				"numpts" "3"
+				"point" "0 192 -32 48"
+				"point" "1 192 32 48"
+				"point" "2 368 32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
+			"uaxis" "[-1 0 0 64] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "136"
+			"plane" "(192 -32 -48) (368 32 -48) (192 32 -48)"
+			point_data
+			{
+				"numpts" "3"
+				"point" "0 192 -32 -48"
+				"point" "1 368 32 -48"
+				"point" "2 192 32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
+			"uaxis" "[-1 0 0 64] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "135"
+			"plane" "(192 -32 48) (192 -32 -48) (192 32 -48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 192 -32 48"
+				"point" "1 192 -32 -48"
+				"point" "2 192 32 -48"
+				"point" "3 192 32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 -1 0] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "134"
+			"plane" "(192 -32 -48) (192 -32 48) (368 32 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 192 -32 -48"
+				"point" "1 192 -32 48"
+				"point" "2 368 32 48"
+				"point" "3 368 32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 -1 0] 0.5"
+			"vaxis" "[1 0 0 -64] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5"
+		side
+		{
+			"id" "144"
+			"plane" "(-96 32 -48) (-96 32 48) (-192 32 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 32 -48"
+				"point" "1 -96 32 48"
+				"point" "2 -192 32 48"
+				"point" "3 -192 32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 1 0] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "143"
+			"plane" "(-192 -32 -48) (-192 -32 48) (-96 -32 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -192 -32 -48"
+				"point" "1 -192 -32 48"
+				"point" "2 -96 -32 48"
+				"point" "3 -96 -32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 1 0] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "142"
+			"plane" "(-96 32 -48) (-192 32 -48) (-192 -32 -48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 32 -48"
+				"point" "1 -192 32 -48"
+				"point" "2 -192 -32 -48"
+				"point" "3 -96 -32 -48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
+			"uaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "141"
+			"plane" "(-96 -32 48) (-192 -32 48) (-192 32 48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 -32 48"
+				"point" "1 -192 -32 48"
+				"point" "2 -192 32 48"
+				"point" "3 -96 32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
+			"uaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "140"
+			"plane" "(-96 32 48) (-96 32 -48) (-96 -32 -48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 32 48"
+				"point" "1 -96 32 -48"
+				"point" "2 -96 -32 -48"
+				"point" "3 -96 -32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 1 0] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "139"
+			"plane" "(-192 -32 48) (-192 -32 -48) (-192 32 -48)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -192 -32 48"
+				"point" "1 -192 -32 -48"
+				"point" "2 -192 32 -48"
+				"point" "3 -192 32 48"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP4"
+			"uaxis" "[0 0 1 0] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "9"
+		side
+		{
+			"id" "150"
+			"plane" "(96 -8 24) (96 -8 40) (-96 -8 40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -8 24"
+				"point" "1 96 -8 40"
+				"point" "2 -96 -8 40"
+				"point" "3 -96 -8 24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "149"
+			"plane" "(-96 -24 24) (-96 -24 40) (96 -24 40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 -24 24"
+				"point" "1 -96 -24 40"
+				"point" "2 96 -24 40"
+				"point" "3 96 -24 24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "148"
+			"plane" "(96 -8 24) (-96 -8 24) (-96 -24 24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -8 24"
+				"point" "1 -96 -8 24"
+				"point" "2 -96 -24 24"
+				"point" "3 96 -24 24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "147"
+			"plane" "(96 -24 40) (-96 -24 40) (-96 -8 40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -24 40"
+				"point" "1 -96 -24 40"
+				"point" "2 -96 -8 40"
+				"point" "3 96 -8 40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "146"
+			"plane" "(96 -8 40) (96 -8 24) (96 -24 24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -8 40"
+				"point" "1 96 -8 24"
+				"point" "2 96 -24 24"
+				"point" "3 96 -24 40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 16] 0.5"
+			"vaxis" "[0 -1 0 96] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "145"
+			"plane" "(-96 -24 40) (-96 -24 24) (-96 -8 24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 -24 40"
+				"point" "1 -96 -24 24"
+				"point" "2 -96 -8 24"
+				"point" "3 -96 -8 40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 16] 0.5"
+			"vaxis" "[0 -1 0 96] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "10"
+		side
+		{
+			"id" "156"
+			"plane" "(96 16 24) (96 16 40) (-96 16 40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 16 24"
+				"point" "1 96 16 40"
+				"point" "2 -96 16 40"
+				"point" "3 -96 16 24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "155"
+			"plane" "(-96 0 24) (-96 0 40) (96 0 40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 0 24"
+				"point" "1 -96 0 40"
+				"point" "2 96 0 40"
+				"point" "3 96 0 24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "154"
+			"plane" "(96 16 24) (-96 16 24) (-96 0 24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 16 24"
+				"point" "1 -96 16 24"
+				"point" "2 -96 0 24"
+				"point" "3 96 0 24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "153"
+			"plane" "(96 0 40) (-96 0 40) (-96 16 40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 0 40"
+				"point" "1 -96 0 40"
+				"point" "2 -96 16 40"
+				"point" "3 96 16 40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "152"
+			"plane" "(96 16 40) (96 16 24) (96 0 24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 16 40"
+				"point" "1 96 16 24"
+				"point" "2 96 0 24"
+				"point" "3 96 0 40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 16] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "151"
+			"plane" "(-96 0 40) (-96 0 24) (-96 16 24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 0 40"
+				"point" "1 -96 0 24"
+				"point" "2 -96 16 24"
+				"point" "3 -96 16 40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 16] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "11"
+		side
+		{
+			"id" "162"
+			"plane" "(96 -8 -8) (96 -8 8) (-96 -8 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -8 -8"
+				"point" "1 96 -8 8"
+				"point" "2 -96 -8 8"
+				"point" "3 -96 -8 -8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "161"
+			"plane" "(-96 -24 -8) (-96 -24 8) (96 -24 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 -24 -8"
+				"point" "1 -96 -24 8"
+				"point" "2 96 -24 8"
+				"point" "3 96 -24 -8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "160"
+			"plane" "(96 -8 -8) (-96 -8 -8) (-96 -24 -8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -8 -8"
+				"point" "1 -96 -8 -8"
+				"point" "2 -96 -24 -8"
+				"point" "3 96 -24 -8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "159"
+			"plane" "(96 -24 8) (-96 -24 8) (-96 -8 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -24 8"
+				"point" "1 -96 -24 8"
+				"point" "2 -96 -8 8"
+				"point" "3 96 -8 8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "158"
+			"plane" "(96 -8 8) (96 -8 -8) (96 -24 -8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -8 8"
+				"point" "1 96 -8 -8"
+				"point" "2 96 -24 -8"
+				"point" "3 96 -24 8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 80] 0.5"
+			"vaxis" "[0 -1 0 96] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "157"
+			"plane" "(-96 -24 8) (-96 -24 -8) (-96 -8 -8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 -24 8"
+				"point" "1 -96 -24 -8"
+				"point" "2 -96 -8 -8"
+				"point" "3 -96 -8 8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 80] 0.5"
+			"vaxis" "[0 -1 0 96] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "12"
+		side
+		{
+			"id" "168"
+			"plane" "(96 16 -8) (96 16 8) (-96 16 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 16 -8"
+				"point" "1 96 16 8"
+				"point" "2 -96 16 8"
+				"point" "3 -96 16 -8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "167"
+			"plane" "(-96 0 -8) (-96 0 8) (96 0 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 0 -8"
+				"point" "1 -96 0 8"
+				"point" "2 96 0 8"
+				"point" "3 96 0 -8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "166"
+			"plane" "(96 16 -8) (-96 16 -8) (-96 0 -8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 16 -8"
+				"point" "1 -96 16 -8"
+				"point" "2 -96 0 -8"
+				"point" "3 96 0 -8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "165"
+			"plane" "(96 0 8) (-96 0 8) (-96 16 8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 0 8"
+				"point" "1 -96 0 8"
+				"point" "2 -96 16 8"
+				"point" "3 96 16 8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 48] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "164"
+			"plane" "(96 16 8) (96 16 -8) (96 0 -8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 16 8"
+				"point" "1 96 16 -8"
+				"point" "2 96 0 -8"
+				"point" "3 96 0 8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 80] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "163"
+			"plane" "(-96 0 8) (-96 0 -8) (-96 16 -8)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 0 8"
+				"point" "1 -96 0 -8"
+				"point" "2 -96 16 -8"
+				"point" "3 -96 16 8"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 80] 0.5"
+			"vaxis" "[0 -1 0 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "13"
+		side
+		{
+			"id" "174"
+			"plane" "(96 -8 -40) (96 -8 -24) (-96 -8 -24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -8 -40"
+				"point" "1 96 -8 -24"
+				"point" "2 -96 -8 -24"
+				"point" "3 -96 -8 -40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "173"
+			"plane" "(-96 -24 -40) (-96 -24 -24) (96 -24 -24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 -24 -40"
+				"point" "1 -96 -24 -24"
+				"point" "2 96 -24 -24"
+				"point" "3 96 -24 -40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
+			"uaxis" "[0 0 1 64] 0.5"
+			"vaxis" "[-1 0 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "172"
+			"plane" "(96 -8 -40) (-96 -8 -40) (-96 -24 -40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -8 -40"
+				"point" "1 -96 -8 -40"
+				"point" "2 -96 -24 -40"
+				"point" "3 96 -24 -40"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "171"
+			"plane" "(96 -24 -24) (-96 -24 -24) (-96 -8 -24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -24 -24"
+				"point" "1 -96 -24 -24"
+				"point" "2 -96 -8 -24"
+				"point" "3 96 -8 -24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[0 -1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "170"
+			"plane" "(96 -8 -24) (96 -8 -40) (96 -24 -40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 96 -8 -24"
+				"point" "1 96 -8 -40"
+				"point" "2 96 -24 -40"
+				"point" "3 96 -24 -24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 16] 0.5"
+			"vaxis" "[0 -1 0 96] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "169"
+			"plane" "(-96 -24 -24) (-96 -24 -40) (-96 -8 -40)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -96 -24 -24"
+				"point" "1 -96 -24 -40"
+				"point" "2 -96 -8 -40"
+				"point" "3 -96 -8 -24"
+			}
+			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
+			"uaxis" "[0 0 1 16] 0.5"
+			"vaxis" "[0 -1 0 96] 0.5"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

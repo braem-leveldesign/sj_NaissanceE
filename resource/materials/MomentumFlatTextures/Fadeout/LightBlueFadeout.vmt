@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "MomentumFlatTextures/Fadeout/LightBlueFadeout"
+	"$translucent" 1
+}

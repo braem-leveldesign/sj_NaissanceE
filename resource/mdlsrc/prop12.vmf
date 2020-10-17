@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8591"
-	"mapversion" "4"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "1"
 	views
@@ -22,20 +22,20 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(0 -60 0)"
-			"angle" "[0 0 0]"
+			"position" "(905.014 960.308 2144.54)"
+			"angle" "[40.7997 184.799 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(1825 560.444 0)"
-			"zoom" "0.0574744"
+			"position" "(-40.2307 -615.521 16384)"
+			"zoom" "0.42704"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -1181.14 -617.868)"
-			"zoom" "0.0697704"
+			"position" "(16384 -584.164 -425.307)"
+			"zoom" "0.208333"
 		}
 		v3
 		{
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -80,17 +80,17 @@ entity
 		side
 		{
 			"id" "1158"
-			"plane" "(-704 -720 1472) (-704 -688 1472) (704 -688 1472)"
+			"plane" "(-640 -688 1472) (-640 -656 1472) (640 -656 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 -720 1472"
-				"point" "1 -704 -688 1472"
-				"point" "2 704 -688 1472"
-				"point" "3 704 -720 1472"
+				"point" "0 -640 -688 1472"
+				"point" "1 -640 -656 1472"
+				"point" "2 640 -656 1472"
+				"point" "3 640 -688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 -32] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -99,17 +99,17 @@ entity
 		side
 		{
 			"id" "1157"
-			"plane" "(704 -720 1344) (704 -688 1344) (-704 -688 1344)"
+			"plane" "(640 -688 1344) (640 -656 1344) (-640 -656 1344)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 -720 1344"
-				"point" "1 704 -688 1344"
-				"point" "2 -704 -688 1344"
-				"point" "3 -704 -720 1344"
+				"point" "0 640 -688 1344"
+				"point" "1 640 -656 1344"
+				"point" "2 -640 -656 1344"
+				"point" "3 -640 -688 1344"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 -32] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -118,14 +118,14 @@ entity
 		side
 		{
 			"id" "1156"
-			"plane" "(-704 -688 1344) (704 -688 1344) (704 -688 1472)"
+			"plane" "(-640 -656 1344) (640 -656 1344) (640 -656 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 -688 1344"
-				"point" "1 704 -688 1344"
-				"point" "2 704 -688 1472"
-				"point" "3 -704 -688 1472"
+				"point" "0 -640 -656 1344"
+				"point" "1 640 -656 1344"
+				"point" "2 640 -656 1472"
+				"point" "3 -640 -656 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -137,17 +137,17 @@ entity
 		side
 		{
 			"id" "1155"
-			"plane" "(704 -688 1344) (704 -720 1344) (704 -720 1472)"
+			"plane" "(640 -656 1344) (640 -688 1344) (640 -688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 -688 1344"
-				"point" "1 704 -720 1344"
-				"point" "2 704 -720 1472"
-				"point" "3 704 -688 1472"
+				"point" "0 640 -656 1344"
+				"point" "1 640 -688 1344"
+				"point" "2 640 -688 1472"
+				"point" "3 640 -656 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 -96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -156,17 +156,17 @@ entity
 		side
 		{
 			"id" "1154"
-			"plane" "(-704 -720 1344) (-704 -688 1344) (-704 -688 1472)"
+			"plane" "(-640 -688 1344) (-640 -656 1344) (-640 -656 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 -720 1344"
-				"point" "1 -704 -688 1344"
-				"point" "2 -704 -688 1472"
-				"point" "3 -704 -720 1472"
+				"point" "0 -640 -688 1344"
+				"point" "1 -640 -656 1344"
+				"point" "2 -640 -656 1472"
+				"point" "3 -640 -688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 -96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -175,14 +175,14 @@ entity
 		side
 		{
 			"id" "1153"
-			"plane" "(704 -720 1344) (-704 -720 1344) (-704 -720 1472)"
+			"plane" "(640 -688 1344) (-640 -688 1344) (-640 -688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 -720 1344"
-				"point" "1 -704 -720 1344"
-				"point" "2 -704 -720 1472"
-				"point" "3 704 -720 1472"
+				"point" "0 640 -688 1344"
+				"point" "1 -640 -688 1344"
+				"point" "2 -640 -688 1472"
+				"point" "3 640 -688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -204,17 +204,17 @@ entity
 		side
 		{
 			"id" "1164"
-			"plane" "(-640 -688 1216) (-640 -656 1216) (640 -656 1216)"
+			"plane" "(-640 -656 1216) (-640 -624 1216) (640 -624 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -688 1216"
-				"point" "1 -640 -656 1216"
-				"point" "2 640 -656 1216"
-				"point" "3 640 -688 1216"
+				"point" "0 -640 -656 1216"
+				"point" "1 -640 -624 1216"
+				"point" "2 640 -624 1216"
+				"point" "3 640 -656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 -96] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -223,17 +223,17 @@ entity
 		side
 		{
 			"id" "1163"
-			"plane" "(640 -688 1088) (640 -656 1088) (-640 -656 1088)"
+			"plane" "(640 -656 1088) (640 -624 1088) (-640 -624 1088)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 -688 1088"
-				"point" "1 640 -656 1088"
-				"point" "2 -640 -656 1088"
-				"point" "3 -640 -688 1088"
+				"point" "0 640 -656 1088"
+				"point" "1 640 -624 1088"
+				"point" "2 -640 -624 1088"
+				"point" "3 -640 -656 1088"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 -96] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -242,14 +242,14 @@ entity
 		side
 		{
 			"id" "1162"
-			"plane" "(-640 -656 1088) (640 -656 1088) (640 -656 1216)"
+			"plane" "(-640 -624 1088) (640 -624 1088) (640 -624 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -656 1088"
-				"point" "1 640 -656 1088"
-				"point" "2 640 -656 1216"
-				"point" "3 -640 -656 1216"
+				"point" "0 -640 -624 1088"
+				"point" "1 640 -624 1088"
+				"point" "2 640 -624 1216"
+				"point" "3 -640 -624 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -261,17 +261,17 @@ entity
 		side
 		{
 			"id" "1161"
-			"plane" "(640 -656 1088) (640 -688 1088) (640 -688 1216)"
+			"plane" "(640 -624 1088) (640 -656 1088) (640 -656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 -656 1088"
-				"point" "1 640 -688 1088"
-				"point" "2 640 -688 1216"
-				"point" "3 640 -656 1216"
+				"point" "0 640 -624 1088"
+				"point" "1 640 -656 1088"
+				"point" "2 640 -656 1216"
+				"point" "3 640 -624 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 -32] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -280,17 +280,17 @@ entity
 		side
 		{
 			"id" "1160"
-			"plane" "(-640 -688 1088) (-640 -656 1088) (-640 -656 1216)"
+			"plane" "(-640 -656 1088) (-640 -624 1088) (-640 -624 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -688 1088"
-				"point" "1 -640 -656 1088"
-				"point" "2 -640 -656 1216"
-				"point" "3 -640 -688 1216"
+				"point" "0 -640 -656 1088"
+				"point" "1 -640 -624 1088"
+				"point" "2 -640 -624 1216"
+				"point" "3 -640 -656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 -32] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -299,14 +299,14 @@ entity
 		side
 		{
 			"id" "1159"
-			"plane" "(640 -688 1088) (-640 -688 1088) (-640 -688 1216)"
+			"plane" "(640 -656 1088) (-640 -656 1088) (-640 -656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 -688 1088"
-				"point" "1 -640 -688 1088"
-				"point" "2 -640 -688 1216"
-				"point" "3 640 -688 1216"
+				"point" "0 640 -656 1088"
+				"point" "1 -640 -656 1088"
+				"point" "2 -640 -656 1216"
+				"point" "3 640 -656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -328,17 +328,17 @@ entity
 		side
 		{
 			"id" "1170"
-			"plane" "(-640 -656 960) (-640 -624 960) (640 -624 960)"
+			"plane" "(-608 -624 960) (-608 -592 960) (608 -592 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -656 960"
-				"point" "1 -640 -624 960"
-				"point" "2 640 -624 960"
-				"point" "3 640 -656 960"
+				"point" "0 -608 -624 960"
+				"point" "1 -608 -592 960"
+				"point" "2 608 -592 960"
+				"point" "3 608 -624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 -32] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -347,17 +347,17 @@ entity
 		side
 		{
 			"id" "1169"
-			"plane" "(640 -656 832) (640 -624 832) (-640 -624 832)"
+			"plane" "(608 -624 832) (608 -592 832) (-608 -592 832)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 -656 832"
-				"point" "1 640 -624 832"
-				"point" "2 -640 -624 832"
-				"point" "3 -640 -656 832"
+				"point" "0 608 -624 832"
+				"point" "1 608 -592 832"
+				"point" "2 -608 -592 832"
+				"point" "3 -608 -624 832"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 -32] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -366,14 +366,14 @@ entity
 		side
 		{
 			"id" "1168"
-			"plane" "(-640 -624 832) (640 -624 832) (640 -624 960)"
+			"plane" "(-608 -592 832) (608 -592 832) (608 -592 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -624 832"
-				"point" "1 640 -624 832"
-				"point" "2 640 -624 960"
-				"point" "3 -640 -624 960"
+				"point" "0 -608 -592 832"
+				"point" "1 608 -592 832"
+				"point" "2 608 -592 960"
+				"point" "3 -608 -592 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -385,17 +385,17 @@ entity
 		side
 		{
 			"id" "1167"
-			"plane" "(640 -624 832) (640 -656 832) (640 -656 960)"
+			"plane" "(608 -592 832) (608 -624 832) (608 -624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 -624 832"
-				"point" "1 640 -656 832"
-				"point" "2 640 -656 960"
-				"point" "3 640 -624 960"
+				"point" "0 608 -592 832"
+				"point" "1 608 -624 832"
+				"point" "2 608 -624 960"
+				"point" "3 608 -592 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 -96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -404,17 +404,17 @@ entity
 		side
 		{
 			"id" "1166"
-			"plane" "(-640 -656 832) (-640 -624 832) (-640 -624 960)"
+			"plane" "(-608 -624 832) (-608 -592 832) (-608 -592 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -656 832"
-				"point" "1 -640 -624 832"
-				"point" "2 -640 -624 960"
-				"point" "3 -640 -656 960"
+				"point" "0 -608 -624 832"
+				"point" "1 -608 -592 832"
+				"point" "2 -608 -592 960"
+				"point" "3 -608 -624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 -96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -423,14 +423,14 @@ entity
 		side
 		{
 			"id" "1165"
-			"plane" "(640 -656 832) (-640 -656 832) (-640 -656 960)"
+			"plane" "(608 -624 832) (-608 -624 832) (-608 -624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 -656 832"
-				"point" "1 -640 -656 832"
-				"point" "2 -640 -656 960"
-				"point" "3 640 -656 960"
+				"point" "0 608 -624 832"
+				"point" "1 -608 -624 832"
+				"point" "2 -608 -624 960"
+				"point" "3 608 -624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -452,17 +452,17 @@ entity
 		side
 		{
 			"id" "1176"
-			"plane" "(-576 -624 704) (-576 -592 704) (576 -592 704)"
+			"plane" "(-576 -592 704) (-576 -560 704) (576 -560 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -624 704"
-				"point" "1 -576 -592 704"
-				"point" "2 576 -592 704"
-				"point" "3 576 -624 704"
+				"point" "0 -576 -592 704"
+				"point" "1 -576 -560 704"
+				"point" "2 576 -560 704"
+				"point" "3 576 -592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 -96] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -471,17 +471,17 @@ entity
 		side
 		{
 			"id" "1175"
-			"plane" "(576 -624 576) (576 -592 576) (-576 -592 576)"
+			"plane" "(576 -592 576) (576 -560 576) (-576 -560 576)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 -624 576"
-				"point" "1 576 -592 576"
-				"point" "2 -576 -592 576"
-				"point" "3 -576 -624 576"
+				"point" "0 576 -592 576"
+				"point" "1 576 -560 576"
+				"point" "2 -576 -560 576"
+				"point" "3 -576 -592 576"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 -96] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -490,14 +490,14 @@ entity
 		side
 		{
 			"id" "1174"
-			"plane" "(-576 -592 576) (576 -592 576) (576 -592 704)"
+			"plane" "(-576 -560 576) (576 -560 576) (576 -560 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -592 576"
-				"point" "1 576 -592 576"
-				"point" "2 576 -592 704"
-				"point" "3 -576 -592 704"
+				"point" "0 -576 -560 576"
+				"point" "1 576 -560 576"
+				"point" "2 576 -560 704"
+				"point" "3 -576 -560 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -509,17 +509,17 @@ entity
 		side
 		{
 			"id" "1173"
-			"plane" "(576 -592 576) (576 -624 576) (576 -624 704)"
+			"plane" "(576 -560 576) (576 -592 576) (576 -592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 -592 576"
-				"point" "1 576 -624 576"
-				"point" "2 576 -624 704"
-				"point" "3 576 -592 704"
+				"point" "0 576 -560 576"
+				"point" "1 576 -592 576"
+				"point" "2 576 -592 704"
+				"point" "3 576 -560 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 -32] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -528,17 +528,17 @@ entity
 		side
 		{
 			"id" "1172"
-			"plane" "(-576 -624 576) (-576 -592 576) (-576 -592 704)"
+			"plane" "(-576 -592 576) (-576 -560 576) (-576 -560 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -624 576"
-				"point" "1 -576 -592 576"
-				"point" "2 -576 -592 704"
-				"point" "3 -576 -624 704"
+				"point" "0 -576 -592 576"
+				"point" "1 -576 -560 576"
+				"point" "2 -576 -560 704"
+				"point" "3 -576 -592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 -32] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -547,14 +547,14 @@ entity
 		side
 		{
 			"id" "1171"
-			"plane" "(576 -624 576) (-576 -624 576) (-576 -624 704)"
+			"plane" "(576 -592 576) (-576 -592 576) (-576 -592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 -624 576"
-				"point" "1 -576 -624 576"
-				"point" "2 -576 -624 704"
-				"point" "3 576 -624 704"
+				"point" "0 576 -592 576"
+				"point" "1 -576 -592 576"
+				"point" "2 -576 -592 704"
+				"point" "3 576 -592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -700,17 +700,17 @@ entity
 		side
 		{
 			"id" "1188"
-			"plane" "(-576 -592 448) (-576 -560 448) (576 -560 448)"
+			"plane" "(-544 -560 448) (-544 -528 448) (544 -528 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -592 448"
-				"point" "1 -576 -560 448"
-				"point" "2 576 -560 448"
-				"point" "3 576 -592 448"
+				"point" "0 -544 -560 448"
+				"point" "1 -544 -528 448"
+				"point" "2 544 -528 448"
+				"point" "3 544 -560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 -32] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -719,17 +719,17 @@ entity
 		side
 		{
 			"id" "1187"
-			"plane" "(576 -592 320) (576 -560 320) (-576 -560 320)"
+			"plane" "(544 -560 320) (544 -528 320) (-544 -528 320)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 -592 320"
-				"point" "1 576 -560 320"
-				"point" "2 -576 -560 320"
-				"point" "3 -576 -592 320"
+				"point" "0 544 -560 320"
+				"point" "1 544 -528 320"
+				"point" "2 -544 -528 320"
+				"point" "3 -544 -560 320"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 -32] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -738,14 +738,14 @@ entity
 		side
 		{
 			"id" "1186"
-			"plane" "(-576 -560 320) (576 -560 320) (576 -560 448)"
+			"plane" "(-544 -528 320) (544 -528 320) (544 -528 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -560 320"
-				"point" "1 576 -560 320"
-				"point" "2 576 -560 448"
-				"point" "3 -576 -560 448"
+				"point" "0 -544 -528 320"
+				"point" "1 544 -528 320"
+				"point" "2 544 -528 448"
+				"point" "3 -544 -528 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -757,17 +757,17 @@ entity
 		side
 		{
 			"id" "1185"
-			"plane" "(576 -560 320) (576 -592 320) (576 -592 448)"
+			"plane" "(544 -528 320) (544 -560 320) (544 -560 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 -560 320"
-				"point" "1 576 -592 320"
-				"point" "2 576 -592 448"
-				"point" "3 576 -560 448"
+				"point" "0 544 -528 320"
+				"point" "1 544 -560 320"
+				"point" "2 544 -560 448"
+				"point" "3 544 -528 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 -96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -776,17 +776,17 @@ entity
 		side
 		{
 			"id" "1184"
-			"plane" "(-576 -592 320) (-576 -560 320) (-576 -560 448)"
+			"plane" "(-544 -560 320) (-544 -528 320) (-544 -528 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -592 320"
-				"point" "1 -576 -560 320"
-				"point" "2 -576 -560 448"
-				"point" "3 -576 -592 448"
+				"point" "0 -544 -560 320"
+				"point" "1 -544 -528 320"
+				"point" "2 -544 -528 448"
+				"point" "3 -544 -560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 -96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -795,14 +795,14 @@ entity
 		side
 		{
 			"id" "1183"
-			"plane" "(576 -592 320) (-576 -592 320) (-576 -592 448)"
+			"plane" "(544 -560 320) (-544 -560 320) (-544 -560 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 -592 320"
-				"point" "1 -576 -592 320"
-				"point" "2 -576 -592 448"
-				"point" "3 576 -592 448"
+				"point" "0 544 -560 320"
+				"point" "1 -544 -560 320"
+				"point" "2 -544 -560 448"
+				"point" "3 544 -560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -824,13 +824,13 @@ entity
 		side
 		{
 			"id" "1194"
-			"plane" "(-32 -1392 1440) (-32 -720 1440) (32 -720 1440)"
+			"plane" "(-32 -1392 1440) (-32 -688 1440) (32 -688 1440)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 -32 -1392 1440"
-				"point" "1 -32 -720 1440"
-				"point" "2 32 -720 1440"
+				"point" "1 -32 -688 1440"
+				"point" "2 32 -688 1440"
 				"point" "3 32 -1392 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
@@ -843,13 +843,13 @@ entity
 		side
 		{
 			"id" "1193"
-			"plane" "(32 -1392 1376) (32 -720 1376) (-32 -720 1376)"
+			"plane" "(32 -1392 1376) (32 -688 1376) (-32 -688 1376)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 32 -1392 1376"
-				"point" "1 32 -720 1376"
-				"point" "2 -32 -720 1376"
+				"point" "1 32 -688 1376"
+				"point" "2 -32 -688 1376"
 				"point" "3 -32 -1392 1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
@@ -862,14 +862,14 @@ entity
 		side
 		{
 			"id" "1192"
-			"plane" "(-32 -720 1376) (32 -720 1376) (32 -720 1440)"
+			"plane" "(-32 -688 1376) (32 -688 1376) (32 -688 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 -720 1376"
-				"point" "1 32 -720 1376"
-				"point" "2 32 -720 1440"
-				"point" "3 -32 -720 1440"
+				"point" "0 -32 -688 1376"
+				"point" "1 32 -688 1376"
+				"point" "2 32 -688 1440"
+				"point" "3 -32 -688 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -881,14 +881,14 @@ entity
 		side
 		{
 			"id" "1191"
-			"plane" "(32 -720 1376) (32 -1392 1376) (32 -1392 1440)"
+			"plane" "(32 -688 1376) (32 -1392 1376) (32 -1392 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 -720 1376"
+				"point" "0 32 -688 1376"
 				"point" "1 32 -1392 1376"
 				"point" "2 32 -1392 1440"
-				"point" "3 32 -720 1440"
+				"point" "3 32 -688 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -900,13 +900,13 @@ entity
 		side
 		{
 			"id" "1190"
-			"plane" "(-32 -1392 1376) (-32 -720 1376) (-32 -720 1440)"
+			"plane" "(-32 -1392 1376) (-32 -688 1376) (-32 -688 1440)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 -32 -1392 1376"
-				"point" "1 -32 -720 1376"
-				"point" "2 -32 -720 1440"
+				"point" "1 -32 -688 1376"
+				"point" "2 -32 -688 1440"
 				"point" "3 -32 -1392 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
@@ -948,13 +948,13 @@ entity
 		side
 		{
 			"id" "1200"
-			"plane" "(-32 -1392 1184) (-32 -688 1184) (32 -688 1184)"
+			"plane" "(-32 -1392 1184) (-32 -656 1184) (32 -656 1184)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 -32 -1392 1184"
-				"point" "1 -32 -688 1184"
-				"point" "2 32 -688 1184"
+				"point" "1 -32 -656 1184"
+				"point" "2 32 -656 1184"
 				"point" "3 32 -1392 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
@@ -967,13 +967,13 @@ entity
 		side
 		{
 			"id" "1199"
-			"plane" "(32 -1392 1120) (32 -688 1120) (-32 -688 1120)"
+			"plane" "(32 -1392 1120) (32 -656 1120) (-32 -656 1120)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 32 -1392 1120"
-				"point" "1 32 -688 1120"
-				"point" "2 -32 -688 1120"
+				"point" "1 32 -656 1120"
+				"point" "2 -32 -656 1120"
 				"point" "3 -32 -1392 1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
@@ -986,14 +986,14 @@ entity
 		side
 		{
 			"id" "1198"
-			"plane" "(-32 -688 1120) (32 -688 1120) (32 -688 1184)"
+			"plane" "(-32 -656 1120) (32 -656 1120) (32 -656 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 -688 1120"
-				"point" "1 32 -688 1120"
-				"point" "2 32 -688 1184"
-				"point" "3 -32 -688 1184"
+				"point" "0 -32 -656 1120"
+				"point" "1 32 -656 1120"
+				"point" "2 32 -656 1184"
+				"point" "3 -32 -656 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -1005,14 +1005,14 @@ entity
 		side
 		{
 			"id" "1197"
-			"plane" "(32 -688 1120) (32 -1392 1120) (32 -1392 1184)"
+			"plane" "(32 -656 1120) (32 -1392 1120) (32 -1392 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 -688 1120"
+				"point" "0 32 -656 1120"
 				"point" "1 32 -1392 1120"
 				"point" "2 32 -1392 1184"
-				"point" "3 32 -688 1184"
+				"point" "3 32 -656 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -1024,13 +1024,13 @@ entity
 		side
 		{
 			"id" "1196"
-			"plane" "(-32 -1392 1120) (-32 -688 1120) (-32 -688 1184)"
+			"plane" "(-32 -1392 1120) (-32 -656 1120) (-32 -656 1184)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 -32 -1392 1120"
-				"point" "1 -32 -688 1120"
-				"point" "2 -32 -688 1184"
+				"point" "1 -32 -656 1120"
+				"point" "2 -32 -656 1184"
 				"point" "3 -32 -1392 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
@@ -1072,13 +1072,13 @@ entity
 		side
 		{
 			"id" "1206"
-			"plane" "(-32 -1392 928) (-32 -656 928) (32 -656 928)"
+			"plane" "(-32 -1392 928) (-32 -624 928) (32 -624 928)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 -32 -1392 928"
-				"point" "1 -32 -656 928"
-				"point" "2 32 -656 928"
+				"point" "1 -32 -624 928"
+				"point" "2 32 -624 928"
 				"point" "3 32 -1392 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
@@ -1091,13 +1091,13 @@ entity
 		side
 		{
 			"id" "1205"
-			"plane" "(32 -1392 864) (32 -656 864) (-32 -656 864)"
+			"plane" "(32 -1392 864) (32 -624 864) (-32 -624 864)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 32 -1392 864"
-				"point" "1 32 -656 864"
-				"point" "2 -32 -656 864"
+				"point" "1 32 -624 864"
+				"point" "2 -32 -624 864"
 				"point" "3 -32 -1392 864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
@@ -1110,14 +1110,14 @@ entity
 		side
 		{
 			"id" "1204"
-			"plane" "(-32 -656 864) (32 -656 864) (32 -656 928)"
+			"plane" "(-32 -624 864) (32 -624 864) (32 -624 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 -656 864"
-				"point" "1 32 -656 864"
-				"point" "2 32 -656 928"
-				"point" "3 -32 -656 928"
+				"point" "0 -32 -624 864"
+				"point" "1 32 -624 864"
+				"point" "2 32 -624 928"
+				"point" "3 -32 -624 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -1129,14 +1129,14 @@ entity
 		side
 		{
 			"id" "1203"
-			"plane" "(32 -656 864) (32 -1392 864) (32 -1392 928)"
+			"plane" "(32 -624 864) (32 -1392 864) (32 -1392 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 -656 864"
+				"point" "0 32 -624 864"
 				"point" "1 32 -1392 864"
 				"point" "2 32 -1392 928"
-				"point" "3 32 -656 928"
+				"point" "3 32 -624 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -1148,13 +1148,13 @@ entity
 		side
 		{
 			"id" "1202"
-			"plane" "(-32 -1392 864) (-32 -656 864) (-32 -656 928)"
+			"plane" "(-32 -1392 864) (-32 -624 864) (-32 -624 928)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 -32 -1392 864"
-				"point" "1 -32 -656 864"
-				"point" "2 -32 -656 928"
+				"point" "1 -32 -624 864"
+				"point" "2 -32 -624 928"
 				"point" "3 -32 -1392 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
@@ -1196,13 +1196,13 @@ entity
 		side
 		{
 			"id" "1212"
-			"plane" "(-32 -1392 672) (-32 -624 672) (32 -624 672)"
+			"plane" "(-32 -1392 672) (-32 -592 672) (32 -592 672)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 -32 -1392 672"
-				"point" "1 -32 -624 672"
-				"point" "2 32 -624 672"
+				"point" "1 -32 -592 672"
+				"point" "2 32 -592 672"
 				"point" "3 32 -1392 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
@@ -1215,13 +1215,13 @@ entity
 		side
 		{
 			"id" "1211"
-			"plane" "(32 -1392 608) (32 -624 608) (-32 -624 608)"
+			"plane" "(32 -1392 608) (32 -592 608) (-32 -592 608)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 32 -1392 608"
-				"point" "1 32 -624 608"
-				"point" "2 -32 -624 608"
+				"point" "1 32 -592 608"
+				"point" "2 -32 -592 608"
 				"point" "3 -32 -1392 608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
@@ -1234,14 +1234,14 @@ entity
 		side
 		{
 			"id" "1210"
-			"plane" "(-32 -624 608) (32 -624 608) (32 -624 672)"
+			"plane" "(-32 -592 608) (32 -592 608) (32 -592 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 -624 608"
-				"point" "1 32 -624 608"
-				"point" "2 32 -624 672"
-				"point" "3 -32 -624 672"
+				"point" "0 -32 -592 608"
+				"point" "1 32 -592 608"
+				"point" "2 32 -592 672"
+				"point" "3 -32 -592 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -1253,14 +1253,14 @@ entity
 		side
 		{
 			"id" "1209"
-			"plane" "(32 -624 608) (32 -1392 608) (32 -1392 672)"
+			"plane" "(32 -592 608) (32 -1392 608) (32 -1392 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 -624 608"
+				"point" "0 32 -592 608"
 				"point" "1 32 -1392 608"
 				"point" "2 32 -1392 672"
-				"point" "3 32 -624 672"
+				"point" "3 32 -592 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -1272,13 +1272,13 @@ entity
 		side
 		{
 			"id" "1208"
-			"plane" "(-32 -1392 608) (-32 -624 608) (-32 -624 672)"
+			"plane" "(-32 -1392 608) (-32 -592 608) (-32 -592 672)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 -32 -1392 608"
-				"point" "1 -32 -624 608"
-				"point" "2 -32 -624 672"
+				"point" "1 -32 -592 608"
+				"point" "2 -32 -592 672"
 				"point" "3 -32 -1392 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
@@ -1320,13 +1320,13 @@ entity
 		side
 		{
 			"id" "1218"
-			"plane" "(-32 -1392 416) (-32 -592 416) (32 -592 416)"
+			"plane" "(-32 -1392 416) (-32 -560 416) (32 -560 416)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 -32 -1392 416"
-				"point" "1 -32 -592 416"
-				"point" "2 32 -592 416"
+				"point" "1 -32 -560 416"
+				"point" "2 32 -560 416"
 				"point" "3 32 -1392 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
@@ -1339,13 +1339,13 @@ entity
 		side
 		{
 			"id" "1217"
-			"plane" "(32 -1392 352) (32 -592 352) (-32 -592 352)"
+			"plane" "(32 -1392 352) (32 -560 352) (-32 -560 352)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 32 -1392 352"
-				"point" "1 32 -592 352"
-				"point" "2 -32 -592 352"
+				"point" "1 32 -560 352"
+				"point" "2 -32 -560 352"
 				"point" "3 -32 -1392 352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
@@ -1358,14 +1358,14 @@ entity
 		side
 		{
 			"id" "1216"
-			"plane" "(-32 -592 352) (32 -592 352) (32 -592 416)"
+			"plane" "(-32 -560 352) (32 -560 352) (32 -560 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 -592 352"
-				"point" "1 32 -592 352"
-				"point" "2 32 -592 416"
-				"point" "3 -32 -592 416"
+				"point" "0 -32 -560 352"
+				"point" "1 32 -560 352"
+				"point" "2 32 -560 416"
+				"point" "3 -32 -560 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -1377,14 +1377,14 @@ entity
 		side
 		{
 			"id" "1215"
-			"plane" "(32 -592 352) (32 -1392 352) (32 -1392 416)"
+			"plane" "(32 -560 352) (32 -1392 352) (32 -1392 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 -592 352"
+				"point" "0 32 -560 352"
 				"point" "1 32 -1392 352"
 				"point" "2 32 -1392 416"
-				"point" "3 32 -592 416"
+				"point" "3 32 -560 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -1396,13 +1396,13 @@ entity
 		side
 		{
 			"id" "1214"
-			"plane" "(-32 -1392 352) (-32 -592 352) (-32 -592 416)"
+			"plane" "(-32 -1392 352) (-32 -560 352) (-32 -560 416)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 -32 -1392 352"
-				"point" "1 -32 -592 352"
-				"point" "2 -32 -592 416"
+				"point" "1 -32 -560 352"
+				"point" "2 -32 -560 416"
 				"point" "3 -32 -1392 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
@@ -3056,17 +3056,17 @@ entity
 		side
 		{
 			"id" "1302"
-			"plane" "(704 720 1472) (-704 720 1472) (-704 752 1472)"
+			"plane" "(640 656 1472) (-640 656 1472) (-640 688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 720 1472"
-				"point" "1 -704 720 1472"
-				"point" "2 -704 752 1472"
-				"point" "3 704 752 1472"
+				"point" "0 640 656 1472"
+				"point" "1 -640 656 1472"
+				"point" "2 -640 688 1472"
+				"point" "3 640 688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3075,17 +3075,17 @@ entity
 		side
 		{
 			"id" "1301"
-			"plane" "(-704 720 1344) (704 720 1344) (704 752 1344)"
+			"plane" "(-640 656 1344) (640 656 1344) (640 688 1344)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 720 1344"
-				"point" "1 704 720 1344"
-				"point" "2 704 752 1344"
-				"point" "3 -704 752 1344"
+				"point" "0 -640 656 1344"
+				"point" "1 640 656 1344"
+				"point" "2 640 688 1344"
+				"point" "3 -640 688 1344"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3094,14 +3094,14 @@ entity
 		side
 		{
 			"id" "1300"
-			"plane" "(704 720 1344) (-704 720 1344) (-704 720 1472)"
+			"plane" "(640 656 1344) (-640 656 1344) (-640 656 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 720 1344"
-				"point" "1 -704 720 1344"
-				"point" "2 -704 720 1472"
-				"point" "3 704 720 1472"
+				"point" "0 640 656 1344"
+				"point" "1 -640 656 1344"
+				"point" "2 -640 656 1472"
+				"point" "3 640 656 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -3113,17 +3113,17 @@ entity
 		side
 		{
 			"id" "1299"
-			"plane" "(704 752 1344) (704 720 1344) (704 720 1472)"
+			"plane" "(640 688 1344) (640 656 1344) (640 656 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 752 1344"
-				"point" "1 704 720 1344"
-				"point" "2 704 720 1472"
-				"point" "3 704 752 1472"
+				"point" "0 640 688 1344"
+				"point" "1 640 656 1344"
+				"point" "2 640 656 1472"
+				"point" "3 640 688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3132,17 +3132,17 @@ entity
 		side
 		{
 			"id" "1298"
-			"plane" "(-704 720 1344) (-704 752 1344) (-704 752 1472)"
+			"plane" "(-640 656 1344) (-640 688 1344) (-640 688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 720 1344"
-				"point" "1 -704 752 1344"
-				"point" "2 -704 752 1472"
-				"point" "3 -704 720 1472"
+				"point" "0 -640 656 1344"
+				"point" "1 -640 688 1344"
+				"point" "2 -640 688 1472"
+				"point" "3 -640 656 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3151,14 +3151,14 @@ entity
 		side
 		{
 			"id" "1297"
-			"plane" "(-704 752 1344) (704 752 1344) (704 752 1472)"
+			"plane" "(-640 688 1344) (640 688 1344) (640 688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 752 1344"
-				"point" "1 704 752 1344"
-				"point" "2 704 752 1472"
-				"point" "3 -704 752 1472"
+				"point" "0 -640 688 1344"
+				"point" "1 640 688 1344"
+				"point" "2 640 688 1472"
+				"point" "3 -640 688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -3180,18 +3180,18 @@ entity
 		side
 		{
 			"id" "1308"
-			"plane" "(704 -688 1472) (672 -688 1472) (672 720 1472)"
+			"plane" "(672 -688 1472) (640 -688 1472) (640 688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 -688 1472"
-				"point" "1 672 -688 1472"
-				"point" "2 672 720 1472"
-				"point" "3 704 720 1472"
+				"point" "0 672 -688 1472"
+				"point" "1 640 -688 1472"
+				"point" "2 640 688 1472"
+				"point" "3 672 688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3199,18 +3199,18 @@ entity
 		side
 		{
 			"id" "1307"
-			"plane" "(672 720 1344) (672 -688 1344) (704 -688 1344)"
+			"plane" "(640 688 1344) (640 -688 1344) (672 -688 1344)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 672 720 1344"
-				"point" "1 672 -688 1344"
-				"point" "2 704 -688 1344"
-				"point" "3 704 720 1344"
+				"point" "0 640 688 1344"
+				"point" "1 640 -688 1344"
+				"point" "2 672 -688 1344"
+				"point" "3 672 688 1344"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3218,17 +3218,17 @@ entity
 		side
 		{
 			"id" "1306"
-			"plane" "(672 -688 1344) (672 720 1344) (672 720 1472)"
+			"plane" "(640 -688 1344) (640 688 1344) (640 688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 672 -688 1344"
-				"point" "1 672 720 1344"
-				"point" "2 672 720 1472"
-				"point" "3 672 -688 1472"
+				"point" "0 640 -688 1344"
+				"point" "1 640 688 1344"
+				"point" "2 640 688 1472"
+				"point" "3 640 -688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3237,17 +3237,17 @@ entity
 		side
 		{
 			"id" "1305"
-			"plane" "(704 -688 1344) (672 -688 1344) (672 -688 1472)"
+			"plane" "(672 -688 1344) (640 -688 1344) (640 -688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 -688 1344"
-				"point" "1 672 -688 1344"
-				"point" "2 672 -688 1472"
-				"point" "3 704 -688 1472"
+				"point" "0 672 -688 1344"
+				"point" "1 640 -688 1344"
+				"point" "2 640 -688 1472"
+				"point" "3 672 -688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3256,17 +3256,17 @@ entity
 		side
 		{
 			"id" "1304"
-			"plane" "(672 720 1344) (704 720 1344) (704 720 1472)"
+			"plane" "(640 688 1344) (672 688 1344) (672 688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 672 720 1344"
-				"point" "1 704 720 1344"
-				"point" "2 704 720 1472"
-				"point" "3 672 720 1472"
+				"point" "0 640 688 1344"
+				"point" "1 672 688 1344"
+				"point" "2 672 688 1472"
+				"point" "3 640 688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3275,17 +3275,17 @@ entity
 		side
 		{
 			"id" "1303"
-			"plane" "(704 720 1344) (704 -688 1344) (704 -688 1472)"
+			"plane" "(672 688 1344) (672 -688 1344) (672 -688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 720 1344"
-				"point" "1 704 -688 1344"
-				"point" "2 704 -688 1472"
-				"point" "3 704 720 1472"
+				"point" "0 672 688 1344"
+				"point" "1 672 -688 1344"
+				"point" "2 672 -688 1472"
+				"point" "3 672 688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3304,18 +3304,18 @@ entity
 		side
 		{
 			"id" "1314"
-			"plane" "(-672 720 1472) (-672 -688 1472) (-704 -688 1472)"
+			"plane" "(-640 688 1472) (-640 -688 1472) (-672 -688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -672 720 1472"
-				"point" "1 -672 -688 1472"
-				"point" "2 -704 -688 1472"
-				"point" "3 -704 720 1472"
+				"point" "0 -640 688 1472"
+				"point" "1 -640 -688 1472"
+				"point" "2 -672 -688 1472"
+				"point" "3 -672 688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3323,18 +3323,18 @@ entity
 		side
 		{
 			"id" "1313"
-			"plane" "(-704 -688 1344) (-672 -688 1344) (-672 720 1344)"
+			"plane" "(-672 -688 1344) (-640 -688 1344) (-640 688 1344)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 -688 1344"
-				"point" "1 -672 -688 1344"
-				"point" "2 -672 720 1344"
-				"point" "3 -704 720 1344"
+				"point" "0 -672 -688 1344"
+				"point" "1 -640 -688 1344"
+				"point" "2 -640 688 1344"
+				"point" "3 -672 688 1344"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3342,14 +3342,14 @@ entity
 		side
 		{
 			"id" "1312"
-			"plane" "(-672 720 1344) (-672 -688 1344) (-672 -688 1472)"
+			"plane" "(-640 688 1344) (-640 -688 1344) (-640 -688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -672 720 1344"
-				"point" "1 -672 -688 1344"
-				"point" "2 -672 -688 1472"
-				"point" "3 -672 720 1472"
+				"point" "0 -640 688 1344"
+				"point" "1 -640 -688 1344"
+				"point" "2 -640 -688 1472"
+				"point" "3 -640 688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -3361,17 +3361,17 @@ entity
 		side
 		{
 			"id" "1311"
-			"plane" "(-672 -688 1344) (-704 -688 1344) (-704 -688 1472)"
+			"plane" "(-640 -688 1344) (-672 -688 1344) (-672 -688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -672 -688 1344"
-				"point" "1 -704 -688 1344"
-				"point" "2 -704 -688 1472"
-				"point" "3 -672 -688 1472"
+				"point" "0 -640 -688 1344"
+				"point" "1 -672 -688 1344"
+				"point" "2 -672 -688 1472"
+				"point" "3 -640 -688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3380,17 +3380,17 @@ entity
 		side
 		{
 			"id" "1310"
-			"plane" "(-704 720 1344) (-672 720 1344) (-672 720 1472)"
+			"plane" "(-672 688 1344) (-640 688 1344) (-640 688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 720 1344"
-				"point" "1 -672 720 1344"
-				"point" "2 -672 720 1472"
-				"point" "3 -704 720 1472"
+				"point" "0 -672 688 1344"
+				"point" "1 -640 688 1344"
+				"point" "2 -640 688 1472"
+				"point" "3 -672 688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3399,14 +3399,14 @@ entity
 		side
 		{
 			"id" "1309"
-			"plane" "(-704 -688 1344) (-704 720 1344) (-704 720 1472)"
+			"plane" "(-672 -688 1344) (-672 688 1344) (-672 688 1472)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 -688 1344"
-				"point" "1 -704 720 1344"
-				"point" "2 -704 720 1472"
-				"point" "3 -704 -688 1472"
+				"point" "0 -672 -688 1344"
+				"point" "1 -672 688 1344"
+				"point" "2 -672 688 1472"
+				"point" "3 -672 -688 1472"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -3428,17 +3428,17 @@ entity
 		side
 		{
 			"id" "1320"
-			"plane" "(640 688 1216) (-640 688 1216) (-640 720 1216)"
+			"plane" "(640 624 1216) (-640 624 1216) (-640 656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 688 1216"
-				"point" "1 -640 688 1216"
-				"point" "2 -640 720 1216"
-				"point" "3 640 720 1216"
+				"point" "0 640 624 1216"
+				"point" "1 -640 624 1216"
+				"point" "2 -640 656 1216"
+				"point" "3 640 656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 32] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3447,17 +3447,17 @@ entity
 		side
 		{
 			"id" "1319"
-			"plane" "(-640 688 1088) (640 688 1088) (640 720 1088)"
+			"plane" "(-640 624 1088) (640 624 1088) (640 656 1088)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 688 1088"
-				"point" "1 640 688 1088"
-				"point" "2 640 720 1088"
-				"point" "3 -640 720 1088"
+				"point" "0 -640 624 1088"
+				"point" "1 640 624 1088"
+				"point" "2 640 656 1088"
+				"point" "3 -640 656 1088"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 32] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3466,14 +3466,14 @@ entity
 		side
 		{
 			"id" "1318"
-			"plane" "(640 688 1088) (-640 688 1088) (-640 688 1216)"
+			"plane" "(640 624 1088) (-640 624 1088) (-640 624 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 688 1088"
-				"point" "1 -640 688 1088"
-				"point" "2 -640 688 1216"
-				"point" "3 640 688 1216"
+				"point" "0 640 624 1088"
+				"point" "1 -640 624 1088"
+				"point" "2 -640 624 1216"
+				"point" "3 640 624 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -3485,17 +3485,17 @@ entity
 		side
 		{
 			"id" "1317"
-			"plane" "(640 720 1088) (640 688 1088) (640 688 1216)"
+			"plane" "(640 656 1088) (640 624 1088) (640 624 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 720 1088"
-				"point" "1 640 688 1088"
-				"point" "2 640 688 1216"
-				"point" "3 640 720 1216"
+				"point" "0 640 656 1088"
+				"point" "1 640 624 1088"
+				"point" "2 640 624 1216"
+				"point" "3 640 656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 32] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3504,17 +3504,17 @@ entity
 		side
 		{
 			"id" "1316"
-			"plane" "(-640 688 1088) (-640 720 1088) (-640 720 1216)"
+			"plane" "(-640 624 1088) (-640 656 1088) (-640 656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 688 1088"
-				"point" "1 -640 720 1088"
-				"point" "2 -640 720 1216"
-				"point" "3 -640 688 1216"
+				"point" "0 -640 624 1088"
+				"point" "1 -640 656 1088"
+				"point" "2 -640 656 1216"
+				"point" "3 -640 624 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 32] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3523,14 +3523,14 @@ entity
 		side
 		{
 			"id" "1315"
-			"plane" "(-640 720 1088) (640 720 1088) (640 720 1216)"
+			"plane" "(-640 656 1088) (640 656 1088) (640 656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 720 1088"
-				"point" "1 640 720 1088"
-				"point" "2 640 720 1216"
-				"point" "3 -640 720 1216"
+				"point" "0 -640 656 1088"
+				"point" "1 640 656 1088"
+				"point" "2 640 656 1216"
+				"point" "3 -640 656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -3552,18 +3552,18 @@ entity
 		side
 		{
 			"id" "1326"
-			"plane" "(672 -688 1216) (640 -688 1216) (640 720 1216)"
+			"plane" "(640 -656 1216) (608 -656 1216) (608 656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 672 -688 1216"
-				"point" "1 640 -688 1216"
-				"point" "2 640 720 1216"
-				"point" "3 672 720 1216"
+				"point" "0 640 -656 1216"
+				"point" "1 608 -656 1216"
+				"point" "2 608 656 1216"
+				"point" "3 640 656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 0] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[1 0 0 64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3571,18 +3571,18 @@ entity
 		side
 		{
 			"id" "1325"
-			"plane" "(640 720 1088) (640 -688 1088) (672 -688 1088)"
+			"plane" "(608 656 1088) (608 -656 1088) (640 -656 1088)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 720 1088"
-				"point" "1 640 -688 1088"
-				"point" "2 672 -688 1088"
-				"point" "3 672 720 1088"
+				"point" "0 608 656 1088"
+				"point" "1 608 -656 1088"
+				"point" "2 640 -656 1088"
+				"point" "3 640 656 1088"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 0] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[1 0 0 64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3590,17 +3590,17 @@ entity
 		side
 		{
 			"id" "1324"
-			"plane" "(640 -688 1088) (640 720 1088) (640 720 1216)"
+			"plane" "(608 -656 1088) (608 656 1088) (608 656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 -688 1088"
-				"point" "1 640 720 1088"
-				"point" "2 640 720 1216"
-				"point" "3 640 -688 1216"
+				"point" "0 608 -656 1088"
+				"point" "1 608 656 1088"
+				"point" "2 608 656 1216"
+				"point" "3 608 -656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3609,17 +3609,17 @@ entity
 		side
 		{
 			"id" "1323"
-			"plane" "(672 -688 1088) (640 -688 1088) (640 -688 1216)"
+			"plane" "(640 -656 1088) (608 -656 1088) (608 -656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 672 -688 1088"
-				"point" "1 640 -688 1088"
-				"point" "2 640 -688 1216"
-				"point" "3 672 -688 1216"
+				"point" "0 640 -656 1088"
+				"point" "1 608 -656 1088"
+				"point" "2 608 -656 1216"
+				"point" "3 640 -656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 0] 0.5"
+			"uaxis" "[-1 0 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3628,17 +3628,17 @@ entity
 		side
 		{
 			"id" "1322"
-			"plane" "(640 720 1088) (672 720 1088) (672 720 1216)"
+			"plane" "(608 656 1088) (640 656 1088) (640 656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 720 1088"
-				"point" "1 672 720 1088"
-				"point" "2 672 720 1216"
-				"point" "3 640 720 1216"
+				"point" "0 608 656 1088"
+				"point" "1 640 656 1088"
+				"point" "2 640 656 1216"
+				"point" "3 608 656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 0] 0.5"
+			"uaxis" "[-1 0 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3647,17 +3647,17 @@ entity
 		side
 		{
 			"id" "1321"
-			"plane" "(672 720 1088) (672 -688 1088) (672 -688 1216)"
+			"plane" "(640 656 1088) (640 -656 1088) (640 -656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 672 720 1088"
-				"point" "1 672 -688 1088"
-				"point" "2 672 -688 1216"
-				"point" "3 672 720 1216"
+				"point" "0 640 656 1088"
+				"point" "1 640 -656 1088"
+				"point" "2 640 -656 1216"
+				"point" "3 640 656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3676,18 +3676,18 @@ entity
 		side
 		{
 			"id" "1332"
-			"plane" "(-640 720 1216) (-640 -688 1216) (-672 -688 1216)"
+			"plane" "(-608 656 1216) (-608 -656 1216) (-640 -656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 720 1216"
-				"point" "1 -640 -688 1216"
-				"point" "2 -672 -688 1216"
-				"point" "3 -672 720 1216"
+				"point" "0 -608 656 1216"
+				"point" "1 -608 -656 1216"
+				"point" "2 -640 -656 1216"
+				"point" "3 -640 656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[1 0 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3695,18 +3695,18 @@ entity
 		side
 		{
 			"id" "1331"
-			"plane" "(-672 -688 1088) (-640 -688 1088) (-640 720 1088)"
+			"plane" "(-640 -656 1088) (-608 -656 1088) (-608 656 1088)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -672 -688 1088"
-				"point" "1 -640 -688 1088"
-				"point" "2 -640 720 1088"
-				"point" "3 -672 720 1088"
+				"point" "0 -640 -656 1088"
+				"point" "1 -608 -656 1088"
+				"point" "2 -608 656 1088"
+				"point" "3 -640 656 1088"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[1 0 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3714,14 +3714,14 @@ entity
 		side
 		{
 			"id" "1330"
-			"plane" "(-640 720 1088) (-640 -688 1088) (-640 -688 1216)"
+			"plane" "(-608 656 1088) (-608 -656 1088) (-608 -656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 720 1088"
-				"point" "1 -640 -688 1088"
-				"point" "2 -640 -688 1216"
-				"point" "3 -640 720 1216"
+				"point" "0 -608 656 1088"
+				"point" "1 -608 -656 1088"
+				"point" "2 -608 -656 1216"
+				"point" "3 -608 656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -3733,17 +3733,17 @@ entity
 		side
 		{
 			"id" "1329"
-			"plane" "(-640 -688 1088) (-672 -688 1088) (-672 -688 1216)"
+			"plane" "(-608 -656 1088) (-640 -656 1088) (-640 -656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -688 1088"
-				"point" "1 -672 -688 1088"
-				"point" "2 -672 -688 1216"
-				"point" "3 -640 -688 1216"
+				"point" "0 -608 -656 1088"
+				"point" "1 -640 -656 1088"
+				"point" "2 -640 -656 1216"
+				"point" "3 -608 -656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 0] 0.5"
+			"uaxis" "[-1 0 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3752,17 +3752,17 @@ entity
 		side
 		{
 			"id" "1328"
-			"plane" "(-672 720 1088) (-640 720 1088) (-640 720 1216)"
+			"plane" "(-640 656 1088) (-608 656 1088) (-608 656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -672 720 1088"
-				"point" "1 -640 720 1088"
-				"point" "2 -640 720 1216"
-				"point" "3 -672 720 1216"
+				"point" "0 -640 656 1088"
+				"point" "1 -608 656 1088"
+				"point" "2 -608 656 1216"
+				"point" "3 -640 656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 0] 0.5"
+			"uaxis" "[-1 0 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3771,14 +3771,14 @@ entity
 		side
 		{
 			"id" "1327"
-			"plane" "(-672 -688 1088) (-672 720 1088) (-672 720 1216)"
+			"plane" "(-640 -656 1088) (-640 656 1088) (-640 656 1216)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -672 -688 1088"
-				"point" "1 -672 720 1088"
-				"point" "2 -672 720 1216"
-				"point" "3 -672 -688 1216"
+				"point" "0 -640 -656 1088"
+				"point" "1 -640 656 1088"
+				"point" "2 -640 656 1216"
+				"point" "3 -640 -656 1216"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -3800,17 +3800,17 @@ entity
 		side
 		{
 			"id" "1338"
-			"plane" "(640 656 960) (-640 656 960) (-640 688 960)"
+			"plane" "(608 592 960) (-608 592 960) (-608 624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 656 960"
-				"point" "1 -640 656 960"
-				"point" "2 -640 688 960"
-				"point" "3 640 688 960"
+				"point" "0 608 592 960"
+				"point" "1 -608 592 960"
+				"point" "2 -608 624 960"
+				"point" "3 608 624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3819,17 +3819,17 @@ entity
 		side
 		{
 			"id" "1337"
-			"plane" "(-640 656 832) (640 656 832) (640 688 832)"
+			"plane" "(-608 592 832) (608 592 832) (608 624 832)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 656 832"
-				"point" "1 640 656 832"
-				"point" "2 640 688 832"
-				"point" "3 -640 688 832"
+				"point" "0 -608 592 832"
+				"point" "1 608 592 832"
+				"point" "2 608 624 832"
+				"point" "3 -608 624 832"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3838,14 +3838,14 @@ entity
 		side
 		{
 			"id" "1336"
-			"plane" "(640 656 832) (-640 656 832) (-640 656 960)"
+			"plane" "(608 592 832) (-608 592 832) (-608 592 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 656 832"
-				"point" "1 -640 656 832"
-				"point" "2 -640 656 960"
-				"point" "3 640 656 960"
+				"point" "0 608 592 832"
+				"point" "1 -608 592 832"
+				"point" "2 -608 592 960"
+				"point" "3 608 592 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -3857,17 +3857,17 @@ entity
 		side
 		{
 			"id" "1335"
-			"plane" "(640 688 832) (640 656 832) (640 656 960)"
+			"plane" "(608 624 832) (608 592 832) (608 592 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 688 832"
-				"point" "1 640 656 832"
-				"point" "2 640 656 960"
-				"point" "3 640 688 960"
+				"point" "0 608 624 832"
+				"point" "1 608 592 832"
+				"point" "2 608 592 960"
+				"point" "3 608 624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3876,17 +3876,17 @@ entity
 		side
 		{
 			"id" "1334"
-			"plane" "(-640 656 832) (-640 688 832) (-640 688 960)"
+			"plane" "(-608 592 832) (-608 624 832) (-608 624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 656 832"
-				"point" "1 -640 688 832"
-				"point" "2 -640 688 960"
-				"point" "3 -640 656 960"
+				"point" "0 -608 592 832"
+				"point" "1 -608 624 832"
+				"point" "2 -608 624 960"
+				"point" "3 -608 592 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3895,14 +3895,14 @@ entity
 		side
 		{
 			"id" "1333"
-			"plane" "(-640 688 832) (640 688 832) (640 688 960)"
+			"plane" "(-608 624 832) (608 624 832) (608 624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 688 832"
-				"point" "1 640 688 832"
-				"point" "2 640 688 960"
-				"point" "3 -640 688 960"
+				"point" "0 -608 624 832"
+				"point" "1 608 624 832"
+				"point" "2 608 624 960"
+				"point" "3 -608 624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -3924,18 +3924,18 @@ entity
 		side
 		{
 			"id" "1344"
-			"plane" "(640 -624 960) (608 -624 960) (608 656 960)"
+			"plane" "(608 -624 960) (576 -624 960) (576 624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 -624 960"
-				"point" "1 608 -624 960"
-				"point" "2 608 656 960"
-				"point" "3 640 656 960"
+				"point" "0 608 -624 960"
+				"point" "1 576 -624 960"
+				"point" "2 576 624 960"
+				"point" "3 608 624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3943,18 +3943,18 @@ entity
 		side
 		{
 			"id" "1343"
-			"plane" "(608 656 832) (608 -624 832) (640 -624 832)"
+			"plane" "(576 624 832) (576 -624 832) (608 -624 832)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 608 656 832"
-				"point" "1 608 -624 832"
-				"point" "2 640 -624 832"
-				"point" "3 640 656 832"
+				"point" "0 576 624 832"
+				"point" "1 576 -624 832"
+				"point" "2 608 -624 832"
+				"point" "3 608 624 832"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3962,17 +3962,17 @@ entity
 		side
 		{
 			"id" "1342"
-			"plane" "(608 -624 832) (608 656 832) (608 656 960)"
+			"plane" "(576 -624 832) (576 624 832) (576 624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 608 -624 832"
-				"point" "1 608 656 832"
-				"point" "2 608 656 960"
-				"point" "3 608 -624 960"
+				"point" "0 576 -624 832"
+				"point" "1 576 624 832"
+				"point" "2 576 624 960"
+				"point" "3 576 -624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -3981,17 +3981,17 @@ entity
 		side
 		{
 			"id" "1341"
-			"plane" "(640 -624 832) (608 -624 832) (608 -624 960)"
+			"plane" "(608 -624 832) (576 -624 832) (576 -624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 -624 832"
-				"point" "1 608 -624 832"
-				"point" "2 608 -624 960"
-				"point" "3 640 -624 960"
+				"point" "0 608 -624 832"
+				"point" "1 576 -624 832"
+				"point" "2 576 -624 960"
+				"point" "3 608 -624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4000,17 +4000,17 @@ entity
 		side
 		{
 			"id" "1340"
-			"plane" "(608 656 832) (640 656 832) (640 656 960)"
+			"plane" "(576 624 832) (608 624 832) (608 624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 608 656 832"
-				"point" "1 640 656 832"
-				"point" "2 640 656 960"
-				"point" "3 608 656 960"
+				"point" "0 576 624 832"
+				"point" "1 608 624 832"
+				"point" "2 608 624 960"
+				"point" "3 576 624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4019,17 +4019,17 @@ entity
 		side
 		{
 			"id" "1339"
-			"plane" "(640 656 832) (640 -624 832) (640 -624 960)"
+			"plane" "(608 624 832) (608 -624 832) (608 -624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 656 832"
-				"point" "1 640 -624 832"
-				"point" "2 640 -624 960"
-				"point" "3 640 656 960"
+				"point" "0 608 624 832"
+				"point" "1 608 -624 832"
+				"point" "2 608 -624 960"
+				"point" "3 608 624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4048,18 +4048,18 @@ entity
 		side
 		{
 			"id" "1350"
-			"plane" "(-608 656 960) (-608 -624 960) (-640 -624 960)"
+			"plane" "(-576 624 960) (-576 -624 960) (-608 -624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -608 656 960"
-				"point" "1 -608 -624 960"
-				"point" "2 -640 -624 960"
-				"point" "3 -640 656 960"
+				"point" "0 -576 624 960"
+				"point" "1 -576 -624 960"
+				"point" "2 -608 -624 960"
+				"point" "3 -608 624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4067,18 +4067,18 @@ entity
 		side
 		{
 			"id" "1349"
-			"plane" "(-640 -624 832) (-608 -624 832) (-608 656 832)"
+			"plane" "(-608 -624 832) (-576 -624 832) (-576 624 832)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -624 832"
-				"point" "1 -608 -624 832"
-				"point" "2 -608 656 832"
-				"point" "3 -640 656 832"
+				"point" "0 -608 -624 832"
+				"point" "1 -576 -624 832"
+				"point" "2 -576 624 832"
+				"point" "3 -608 624 832"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4086,14 +4086,14 @@ entity
 		side
 		{
 			"id" "1348"
-			"plane" "(-608 656 832) (-608 -624 832) (-608 -624 960)"
+			"plane" "(-576 624 832) (-576 -624 832) (-576 -624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -608 656 832"
-				"point" "1 -608 -624 832"
-				"point" "2 -608 -624 960"
-				"point" "3 -608 656 960"
+				"point" "0 -576 624 832"
+				"point" "1 -576 -624 832"
+				"point" "2 -576 -624 960"
+				"point" "3 -576 624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -4105,17 +4105,17 @@ entity
 		side
 		{
 			"id" "1347"
-			"plane" "(-608 -624 832) (-640 -624 832) (-640 -624 960)"
+			"plane" "(-576 -624 832) (-608 -624 832) (-608 -624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -608 -624 832"
-				"point" "1 -640 -624 832"
-				"point" "2 -640 -624 960"
-				"point" "3 -608 -624 960"
+				"point" "0 -576 -624 832"
+				"point" "1 -608 -624 832"
+				"point" "2 -608 -624 960"
+				"point" "3 -576 -624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4124,17 +4124,17 @@ entity
 		side
 		{
 			"id" "1346"
-			"plane" "(-640 656 832) (-608 656 832) (-608 656 960)"
+			"plane" "(-608 624 832) (-576 624 832) (-576 624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 656 832"
-				"point" "1 -608 656 832"
-				"point" "2 -608 656 960"
-				"point" "3 -640 656 960"
+				"point" "0 -608 624 832"
+				"point" "1 -576 624 832"
+				"point" "2 -576 624 960"
+				"point" "3 -608 624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4143,14 +4143,14 @@ entity
 		side
 		{
 			"id" "1345"
-			"plane" "(-640 -624 832) (-640 656 832) (-640 656 960)"
+			"plane" "(-608 -624 832) (-608 624 832) (-608 624 960)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -624 832"
-				"point" "1 -640 656 832"
-				"point" "2 -640 656 960"
-				"point" "3 -640 -624 960"
+				"point" "0 -608 -624 832"
+				"point" "1 -608 624 832"
+				"point" "2 -608 624 960"
+				"point" "3 -608 -624 960"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -4172,17 +4172,17 @@ entity
 		side
 		{
 			"id" "1356"
-			"plane" "(576 624 704) (-576 624 704) (-576 656 704)"
+			"plane" "(576 560 704) (-576 560 704) (-576 592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 624 704"
-				"point" "1 -576 624 704"
-				"point" "2 -576 656 704"
-				"point" "3 576 656 704"
+				"point" "0 576 560 704"
+				"point" "1 -576 560 704"
+				"point" "2 -576 592 704"
+				"point" "3 576 592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 32] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4191,17 +4191,17 @@ entity
 		side
 		{
 			"id" "1355"
-			"plane" "(-576 624 576) (576 624 576) (576 656 576)"
+			"plane" "(-576 560 576) (576 560 576) (576 592 576)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 624 576"
-				"point" "1 576 624 576"
-				"point" "2 576 656 576"
-				"point" "3 -576 656 576"
+				"point" "0 -576 560 576"
+				"point" "1 576 560 576"
+				"point" "2 576 592 576"
+				"point" "3 -576 592 576"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 32] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4210,14 +4210,14 @@ entity
 		side
 		{
 			"id" "1354"
-			"plane" "(576 624 576) (-576 624 576) (-576 624 704)"
+			"plane" "(576 560 576) (-576 560 576) (-576 560 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 624 576"
-				"point" "1 -576 624 576"
-				"point" "2 -576 624 704"
-				"point" "3 576 624 704"
+				"point" "0 576 560 576"
+				"point" "1 -576 560 576"
+				"point" "2 -576 560 704"
+				"point" "3 576 560 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -4229,17 +4229,17 @@ entity
 		side
 		{
 			"id" "1353"
-			"plane" "(576 656 576) (576 624 576) (576 624 704)"
+			"plane" "(576 592 576) (576 560 576) (576 560 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 656 576"
-				"point" "1 576 624 576"
-				"point" "2 576 624 704"
-				"point" "3 576 656 704"
+				"point" "0 576 592 576"
+				"point" "1 576 560 576"
+				"point" "2 576 560 704"
+				"point" "3 576 592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 32] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4248,17 +4248,17 @@ entity
 		side
 		{
 			"id" "1352"
-			"plane" "(-576 624 576) (-576 656 576) (-576 656 704)"
+			"plane" "(-576 560 576) (-576 592 576) (-576 592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 624 576"
-				"point" "1 -576 656 576"
-				"point" "2 -576 656 704"
-				"point" "3 -576 624 704"
+				"point" "0 -576 560 576"
+				"point" "1 -576 592 576"
+				"point" "2 -576 592 704"
+				"point" "3 -576 560 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -96] 0.5"
+			"uaxis" "[0 1 0 32] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4267,14 +4267,14 @@ entity
 		side
 		{
 			"id" "1351"
-			"plane" "(-576 656 576) (576 656 576) (576 656 704)"
+			"plane" "(-576 592 576) (576 592 576) (576 592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 656 576"
-				"point" "1 576 656 576"
-				"point" "2 576 656 704"
-				"point" "3 -576 656 704"
+				"point" "0 -576 592 576"
+				"point" "1 576 592 576"
+				"point" "2 576 592 704"
+				"point" "3 -576 592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -4296,18 +4296,18 @@ entity
 		side
 		{
 			"id" "1362"
-			"plane" "(608 -624 704) (576 -624 704) (576 656 704)"
+			"plane" "(576 -592 704) (544 -592 704) (544 592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 608 -624 704"
-				"point" "1 576 -624 704"
-				"point" "2 576 656 704"
-				"point" "3 608 656 704"
+				"point" "0 576 -592 704"
+				"point" "1 544 -592 704"
+				"point" "2 544 592 704"
+				"point" "3 576 592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 0] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[1 0 0 64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4315,18 +4315,18 @@ entity
 		side
 		{
 			"id" "1361"
-			"plane" "(576 656 576) (576 -624 576) (608 -624 576)"
+			"plane" "(544 592 576) (544 -592 576) (576 -592 576)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 656 576"
-				"point" "1 576 -624 576"
-				"point" "2 608 -624 576"
-				"point" "3 608 656 576"
+				"point" "0 544 592 576"
+				"point" "1 544 -592 576"
+				"point" "2 576 -592 576"
+				"point" "3 576 592 576"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 0] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[1 0 0 64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4334,17 +4334,17 @@ entity
 		side
 		{
 			"id" "1360"
-			"plane" "(576 -624 576) (576 656 576) (576 656 704)"
+			"plane" "(544 -592 576) (544 592 576) (544 592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 -624 576"
-				"point" "1 576 656 576"
-				"point" "2 576 656 704"
-				"point" "3 576 -624 704"
+				"point" "0 544 -592 576"
+				"point" "1 544 592 576"
+				"point" "2 544 592 704"
+				"point" "3 544 -592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4353,17 +4353,17 @@ entity
 		side
 		{
 			"id" "1359"
-			"plane" "(608 -624 576) (576 -624 576) (576 -624 704)"
+			"plane" "(576 -592 576) (544 -592 576) (544 -592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 608 -624 576"
-				"point" "1 576 -624 576"
-				"point" "2 576 -624 704"
-				"point" "3 608 -624 704"
+				"point" "0 576 -592 576"
+				"point" "1 544 -592 576"
+				"point" "2 544 -592 704"
+				"point" "3 576 -592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 0] 0.5"
+			"uaxis" "[-1 0 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4372,17 +4372,17 @@ entity
 		side
 		{
 			"id" "1358"
-			"plane" "(576 656 576) (608 656 576) (608 656 704)"
+			"plane" "(544 592 576) (576 592 576) (576 592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 656 576"
-				"point" "1 608 656 576"
-				"point" "2 608 656 704"
-				"point" "3 576 656 704"
+				"point" "0 544 592 576"
+				"point" "1 576 592 576"
+				"point" "2 576 592 704"
+				"point" "3 544 592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 0] 0.5"
+			"uaxis" "[-1 0 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4391,17 +4391,17 @@ entity
 		side
 		{
 			"id" "1357"
-			"plane" "(608 656 576) (608 -624 576) (608 -624 704)"
+			"plane" "(576 592 576) (576 -592 576) (576 -592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 608 656 576"
-				"point" "1 608 -624 576"
-				"point" "2 608 -624 704"
-				"point" "3 608 656 704"
+				"point" "0 576 592 576"
+				"point" "1 576 -592 576"
+				"point" "2 576 -592 704"
+				"point" "3 576 592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4420,18 +4420,18 @@ entity
 		side
 		{
 			"id" "1368"
-			"plane" "(-576 656 704) (-576 -624 704) (-608 -624 704)"
+			"plane" "(-544 592 704) (-544 -592 704) (-576 -592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 656 704"
-				"point" "1 -576 -624 704"
-				"point" "2 -608 -624 704"
-				"point" "3 -608 656 704"
+				"point" "0 -544 592 704"
+				"point" "1 -544 -592 704"
+				"point" "2 -576 -592 704"
+				"point" "3 -576 592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[1 0 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4439,18 +4439,18 @@ entity
 		side
 		{
 			"id" "1367"
-			"plane" "(-608 -624 576) (-576 -624 576) (-576 656 576)"
+			"plane" "(-576 -592 576) (-544 -592 576) (-544 592 576)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -608 -624 576"
-				"point" "1 -576 -624 576"
-				"point" "2 -576 656 576"
-				"point" "3 -608 656 576"
+				"point" "0 -576 -592 576"
+				"point" "1 -544 -592 576"
+				"point" "2 -544 592 576"
+				"point" "3 -576 592 576"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 0] 0.5"
+			"vaxis" "[1 0 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4458,14 +4458,14 @@ entity
 		side
 		{
 			"id" "1366"
-			"plane" "(-576 656 576) (-576 -624 576) (-576 -624 704)"
+			"plane" "(-544 592 576) (-544 -592 576) (-544 -592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 656 576"
-				"point" "1 -576 -624 576"
-				"point" "2 -576 -624 704"
-				"point" "3 -576 656 704"
+				"point" "0 -544 592 576"
+				"point" "1 -544 -592 576"
+				"point" "2 -544 -592 704"
+				"point" "3 -544 592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -4477,17 +4477,17 @@ entity
 		side
 		{
 			"id" "1365"
-			"plane" "(-576 -624 576) (-608 -624 576) (-608 -624 704)"
+			"plane" "(-544 -592 576) (-576 -592 576) (-576 -592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -624 576"
-				"point" "1 -608 -624 576"
-				"point" "2 -608 -624 704"
-				"point" "3 -576 -624 704"
+				"point" "0 -544 -592 576"
+				"point" "1 -576 -592 576"
+				"point" "2 -576 -592 704"
+				"point" "3 -544 -592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 0] 0.5"
+			"uaxis" "[-1 0 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4496,17 +4496,17 @@ entity
 		side
 		{
 			"id" "1364"
-			"plane" "(-608 656 576) (-576 656 576) (-576 656 704)"
+			"plane" "(-576 592 576) (-544 592 576) (-544 592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -608 656 576"
-				"point" "1 -576 656 576"
-				"point" "2 -576 656 704"
-				"point" "3 -608 656 704"
+				"point" "0 -576 592 576"
+				"point" "1 -544 592 576"
+				"point" "2 -544 592 704"
+				"point" "3 -576 592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 0] 0.5"
+			"uaxis" "[-1 0 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4515,14 +4515,14 @@ entity
 		side
 		{
 			"id" "1363"
-			"plane" "(-608 -624 576) (-608 656 576) (-608 656 704)"
+			"plane" "(-576 -592 576) (-576 592 576) (-576 592 704)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -608 -624 576"
-				"point" "1 -608 656 576"
-				"point" "2 -608 656 704"
-				"point" "3 -608 -624 704"
+				"point" "0 -576 -592 576"
+				"point" "1 -576 592 576"
+				"point" "2 -576 592 704"
+				"point" "3 -576 -592 704"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -4916,17 +4916,17 @@ entity
 		side
 		{
 			"id" "1392"
-			"plane" "(576 592 448) (-576 592 448) (-576 624 448)"
+			"plane" "(544 528 448) (-544 528 448) (-544 560 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 592 448"
-				"point" "1 -576 592 448"
-				"point" "2 -576 624 448"
-				"point" "3 576 624 448"
+				"point" "0 544 528 448"
+				"point" "1 -544 528 448"
+				"point" "2 -544 560 448"
+				"point" "3 544 560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4935,17 +4935,17 @@ entity
 		side
 		{
 			"id" "1391"
-			"plane" "(-576 592 320) (576 592 320) (576 624 320)"
+			"plane" "(-544 528 320) (544 528 320) (544 560 320)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 592 320"
-				"point" "1 576 592 320"
-				"point" "2 576 624 320"
-				"point" "3 -576 624 320"
+				"point" "0 -544 528 320"
+				"point" "1 544 528 320"
+				"point" "2 544 560 320"
+				"point" "3 -544 560 320"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4954,14 +4954,14 @@ entity
 		side
 		{
 			"id" "1390"
-			"plane" "(576 592 320) (-576 592 320) (-576 592 448)"
+			"plane" "(544 528 320) (-544 528 320) (-544 528 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 592 320"
-				"point" "1 -576 592 320"
-				"point" "2 -576 592 448"
-				"point" "3 576 592 448"
+				"point" "0 544 528 320"
+				"point" "1 -544 528 320"
+				"point" "2 -544 528 448"
+				"point" "3 544 528 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -4973,17 +4973,17 @@ entity
 		side
 		{
 			"id" "1389"
-			"plane" "(576 624 320) (576 592 320) (576 592 448)"
+			"plane" "(544 560 320) (544 528 320) (544 528 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 624 320"
-				"point" "1 576 592 320"
-				"point" "2 576 592 448"
-				"point" "3 576 624 448"
+				"point" "0 544 560 320"
+				"point" "1 544 528 320"
+				"point" "2 544 528 448"
+				"point" "3 544 560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -4992,17 +4992,17 @@ entity
 		side
 		{
 			"id" "1388"
-			"plane" "(-576 592 320) (-576 624 320) (-576 624 448)"
+			"plane" "(-544 528 320) (-544 560 320) (-544 560 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 592 320"
-				"point" "1 -576 624 320"
-				"point" "2 -576 624 448"
-				"point" "3 -576 592 448"
+				"point" "0 -544 528 320"
+				"point" "1 -544 560 320"
+				"point" "2 -544 560 448"
+				"point" "3 -544 528 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[0 1 0 -32] 0.5"
+			"uaxis" "[0 1 0 96] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -5011,14 +5011,14 @@ entity
 		side
 		{
 			"id" "1387"
-			"plane" "(-576 624 320) (576 624 320) (576 624 448)"
+			"plane" "(-544 560 320) (544 560 320) (544 560 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 624 320"
-				"point" "1 576 624 320"
-				"point" "2 576 624 448"
-				"point" "3 -576 624 448"
+				"point" "0 -544 560 320"
+				"point" "1 544 560 320"
+				"point" "2 544 560 448"
+				"point" "3 -544 560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[-1 0 0 0] 0.5"
@@ -5040,18 +5040,18 @@ entity
 		side
 		{
 			"id" "1398"
-			"plane" "(576 -560 448) (544 -560 448) (544 592 448)"
+			"plane" "(544 -560 448) (512 -560 448) (512 560 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 -560 448"
-				"point" "1 544 -560 448"
-				"point" "2 544 592 448"
-				"point" "3 576 592 448"
+				"point" "0 544 -560 448"
+				"point" "1 512 -560 448"
+				"point" "2 512 560 448"
+				"point" "3 544 560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5059,18 +5059,18 @@ entity
 		side
 		{
 			"id" "1397"
-			"plane" "(544 592 320) (544 -560 320) (576 -560 320)"
+			"plane" "(512 560 320) (512 -560 320) (544 -560 320)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 544 592 320"
-				"point" "1 544 -560 320"
-				"point" "2 576 -560 320"
-				"point" "3 576 592 320"
+				"point" "0 512 560 320"
+				"point" "1 512 -560 320"
+				"point" "2 544 -560 320"
+				"point" "3 544 560 320"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5078,14 +5078,14 @@ entity
 		side
 		{
 			"id" "1396"
-			"plane" "(544 -560 320) (544 592 320) (544 592 448)"
+			"plane" "(512 -560 320) (512 560 320) (512 560 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 544 -560 320"
-				"point" "1 544 592 320"
-				"point" "2 544 592 448"
-				"point" "3 544 -560 448"
+				"point" "0 512 -560 320"
+				"point" "1 512 560 320"
+				"point" "2 512 560 448"
+				"point" "3 512 -560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -5097,17 +5097,17 @@ entity
 		side
 		{
 			"id" "1395"
-			"plane" "(576 -560 320) (544 -560 320) (544 -560 448)"
+			"plane" "(544 -560 320) (512 -560 320) (512 -560 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 -560 320"
-				"point" "1 544 -560 320"
-				"point" "2 544 -560 448"
-				"point" "3 576 -560 448"
+				"point" "0 544 -560 320"
+				"point" "1 512 -560 320"
+				"point" "2 512 -560 448"
+				"point" "3 544 -560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -5116,17 +5116,17 @@ entity
 		side
 		{
 			"id" "1394"
-			"plane" "(544 592 320) (576 592 320) (576 592 448)"
+			"plane" "(512 560 320) (544 560 320) (544 560 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 544 592 320"
-				"point" "1 576 592 320"
-				"point" "2 576 592 448"
-				"point" "3 544 592 448"
+				"point" "0 512 560 320"
+				"point" "1 544 560 320"
+				"point" "2 544 560 448"
+				"point" "3 512 560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -5135,14 +5135,14 @@ entity
 		side
 		{
 			"id" "1393"
-			"plane" "(576 592 320) (576 -560 320) (576 -560 448)"
+			"plane" "(544 560 320) (544 -560 320) (544 -560 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 592 320"
-				"point" "1 576 -560 320"
-				"point" "2 576 -560 448"
-				"point" "3 576 592 448"
+				"point" "0 544 560 320"
+				"point" "1 544 -560 320"
+				"point" "2 544 -560 448"
+				"point" "3 544 560 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -5164,18 +5164,18 @@ entity
 		side
 		{
 			"id" "1404"
-			"plane" "(-544 592 448) (-544 -560 448) (-576 -560 448)"
+			"plane" "(-512 528 448) (-512 -528 448) (-544 -528 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -544 592 448"
-				"point" "1 -544 -560 448"
-				"point" "2 -576 -560 448"
-				"point" "3 -576 592 448"
+				"point" "0 -512 528 448"
+				"point" "1 -512 -528 448"
+				"point" "2 -544 -528 448"
+				"point" "3 -544 528 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5183,18 +5183,18 @@ entity
 		side
 		{
 			"id" "1403"
-			"plane" "(-576 -560 320) (-544 -560 320) (-544 592 320)"
+			"plane" "(-544 -528 320) (-512 -528 320) (-512 528 320)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -560 320"
-				"point" "1 -544 -560 320"
-				"point" "2 -544 592 320"
-				"point" "3 -576 592 320"
+				"point" "0 -544 -528 320"
+				"point" "1 -512 -528 320"
+				"point" "2 -512 528 320"
+				"point" "3 -544 528 320"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
-			"vaxis" "[1 0 0 -64] 0.5"
+			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5202,14 +5202,14 @@ entity
 		side
 		{
 			"id" "1402"
-			"plane" "(-544 592 320) (-544 -560 320) (-544 -560 448)"
+			"plane" "(-512 528 320) (-512 -528 320) (-512 -528 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -544 592 320"
-				"point" "1 -544 -560 320"
-				"point" "2 -544 -560 448"
-				"point" "3 -544 592 448"
+				"point" "0 -512 528 320"
+				"point" "1 -512 -528 320"
+				"point" "2 -512 -528 448"
+				"point" "3 -512 528 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP5"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -5221,17 +5221,17 @@ entity
 		side
 		{
 			"id" "1401"
-			"plane" "(-544 -560 320) (-576 -560 320) (-576 -560 448)"
+			"plane" "(-512 -528 320) (-544 -528 320) (-544 -528 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -544 -560 320"
-				"point" "1 -576 -560 320"
-				"point" "2 -576 -560 448"
-				"point" "3 -544 -560 448"
+				"point" "0 -512 -528 320"
+				"point" "1 -544 -528 320"
+				"point" "2 -544 -528 448"
+				"point" "3 -512 -528 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -5240,17 +5240,17 @@ entity
 		side
 		{
 			"id" "1400"
-			"plane" "(-576 592 320) (-544 592 320) (-544 592 448)"
+			"plane" "(-544 528 320) (-512 528 320) (-512 528 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 592 320"
-				"point" "1 -544 592 320"
-				"point" "2 -544 592 448"
-				"point" "3 -576 592 448"
+				"point" "0 -544 528 320"
+				"point" "1 -512 528 320"
+				"point" "2 -512 528 448"
+				"point" "3 -544 528 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
-			"uaxis" "[-1 0 0 64] 0.5"
+			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -5259,14 +5259,14 @@ entity
 		side
 		{
 			"id" "1399"
-			"plane" "(-576 -560 320) (-576 592 320) (-576 592 448)"
+			"plane" "(-544 -528 320) (-544 528 320) (-544 528 448)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -560 320"
-				"point" "1 -576 592 320"
-				"point" "2 -576 592 448"
-				"point" "3 -576 -560 448"
+				"point" "0 -544 -528 320"
+				"point" "1 -544 528 320"
+				"point" "2 -544 528 448"
+				"point" "3 -544 -528 448"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP3"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -5288,18 +5288,18 @@ entity
 		side
 		{
 			"id" "1410"
-			"plane" "(-704 -16 1440) (-1376 -16 1440) (-1376 48 1440)"
+			"plane" "(-672 -32 1440) (-1376 -32 1440) (-1376 32 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 -16 1440"
-				"point" "1 -1376 -16 1440"
-				"point" "2 -1376 48 1440"
-				"point" "3 -704 48 1440"
+				"point" "0 -672 -32 1440"
+				"point" "1 -1376 -32 1440"
+				"point" "2 -1376 32 1440"
+				"point" "3 -672 32 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5307,18 +5307,18 @@ entity
 		side
 		{
 			"id" "1409"
-			"plane" "(-704 48 1376) (-1376 48 1376) (-1376 -16 1376)"
+			"plane" "(-672 32 1376) (-1376 32 1376) (-1376 -32 1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 48 1376"
-				"point" "1 -1376 48 1376"
-				"point" "2 -1376 -16 1376"
-				"point" "3 -704 -16 1376"
+				"point" "0 -672 32 1376"
+				"point" "1 -1376 32 1376"
+				"point" "2 -1376 -32 1376"
+				"point" "3 -672 -32 1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5326,17 +5326,17 @@ entity
 		side
 		{
 			"id" "1408"
-			"plane" "(-1376 -16 1376) (-1376 48 1376) (-1376 48 1440)"
+			"plane" "(-1376 -32 1376) (-1376 32 1376) (-1376 32 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 1376"
-				"point" "1 -1376 48 1376"
-				"point" "2 -1376 48 1440"
-				"point" "3 -1376 -16 1440"
+				"point" "0 -1376 -32 1376"
+				"point" "1 -1376 32 1376"
+				"point" "2 -1376 32 1440"
+				"point" "3 -1376 -32 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5345,14 +5345,14 @@ entity
 		side
 		{
 			"id" "1407"
-			"plane" "(-1376 48 1376) (-704 48 1376) (-704 48 1440)"
+			"plane" "(-1376 32 1376) (-672 32 1376) (-672 32 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 1376"
-				"point" "1 -704 48 1376"
-				"point" "2 -704 48 1440"
-				"point" "3 -1376 48 1440"
+				"point" "0 -1376 32 1376"
+				"point" "1 -672 32 1376"
+				"point" "2 -672 32 1440"
+				"point" "3 -1376 32 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -5364,14 +5364,14 @@ entity
 		side
 		{
 			"id" "1406"
-			"plane" "(-704 -16 1376) (-1376 -16 1376) (-1376 -16 1440)"
+			"plane" "(-672 -32 1376) (-1376 -32 1376) (-1376 -32 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 -16 1376"
-				"point" "1 -1376 -16 1376"
-				"point" "2 -1376 -16 1440"
-				"point" "3 -704 -16 1440"
+				"point" "0 -672 -32 1376"
+				"point" "1 -1376 -32 1376"
+				"point" "2 -1376 -32 1440"
+				"point" "3 -672 -32 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -5383,17 +5383,17 @@ entity
 		side
 		{
 			"id" "1405"
-			"plane" "(-704 48 1376) (-704 -16 1376) (-704 -16 1440)"
+			"plane" "(-672 32 1376) (-672 -32 1376) (-672 -32 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -704 48 1376"
-				"point" "1 -704 -16 1376"
-				"point" "2 -704 -16 1440"
-				"point" "3 -704 48 1440"
+				"point" "0 -672 32 1376"
+				"point" "1 -672 -32 1376"
+				"point" "2 -672 -32 1440"
+				"point" "3 -672 32 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -5412,14 +5412,14 @@ entity
 		side
 		{
 			"id" "1416"
-			"plane" "(-32 752 1440) (-32 1392 1440) (32 1392 1440)"
+			"plane" "(-32 688 1440) (-32 1392 1440) (32 1392 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 752 1440"
+				"point" "0 -32 688 1440"
 				"point" "1 -32 1392 1440"
 				"point" "2 32 1392 1440"
-				"point" "3 32 752 1440"
+				"point" "3 32 688 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -5431,14 +5431,14 @@ entity
 		side
 		{
 			"id" "1415"
-			"plane" "(32 752 1376) (32 1392 1376) (-32 1392 1376)"
+			"plane" "(32 688 1376) (32 1392 1376) (-32 1392 1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 752 1376"
+				"point" "0 32 688 1376"
 				"point" "1 32 1392 1376"
 				"point" "2 -32 1392 1376"
-				"point" "3 -32 752 1376"
+				"point" "3 -32 688 1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -5469,13 +5469,13 @@ entity
 		side
 		{
 			"id" "1413"
-			"plane" "(32 1392 1376) (32 752 1376) (32 752 1440)"
+			"plane" "(32 1392 1376) (32 688 1376) (32 688 1440)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 32 1392 1376"
-				"point" "1 32 752 1376"
-				"point" "2 32 752 1440"
+				"point" "1 32 688 1376"
+				"point" "2 32 688 1440"
 				"point" "3 32 1392 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
@@ -5488,14 +5488,14 @@ entity
 		side
 		{
 			"id" "1412"
-			"plane" "(-32 752 1376) (-32 1392 1376) (-32 1392 1440)"
+			"plane" "(-32 688 1376) (-32 1392 1376) (-32 1392 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 752 1376"
+				"point" "0 -32 688 1376"
 				"point" "1 -32 1392 1376"
 				"point" "2 -32 1392 1440"
-				"point" "3 -32 752 1440"
+				"point" "3 -32 688 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -5507,14 +5507,14 @@ entity
 		side
 		{
 			"id" "1411"
-			"plane" "(32 752 1376) (-32 752 1376) (-32 752 1440)"
+			"plane" "(32 688 1376) (-32 688 1376) (-32 688 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 752 1376"
-				"point" "1 -32 752 1376"
-				"point" "2 -32 752 1440"
-				"point" "3 32 752 1440"
+				"point" "0 32 688 1376"
+				"point" "1 -32 688 1376"
+				"point" "2 -32 688 1440"
+				"point" "3 32 688 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -5536,18 +5536,18 @@ entity
 		side
 		{
 			"id" "1422"
-			"plane" "(1376 -16 1440) (704 -16 1440) (704 48 1440)"
+			"plane" "(1376 -32 1440) (672 -32 1440) (672 32 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 1440"
-				"point" "1 704 -16 1440"
-				"point" "2 704 48 1440"
-				"point" "3 1376 48 1440"
+				"point" "0 1376 -32 1440"
+				"point" "1 672 -32 1440"
+				"point" "2 672 32 1440"
+				"point" "3 1376 32 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5555,18 +5555,18 @@ entity
 		side
 		{
 			"id" "1421"
-			"plane" "(1376 48 1376) (704 48 1376) (704 -16 1376)"
+			"plane" "(1376 32 1376) (672 32 1376) (672 -32 1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 1376"
-				"point" "1 704 48 1376"
-				"point" "2 704 -16 1376"
-				"point" "3 1376 -16 1376"
+				"point" "0 1376 32 1376"
+				"point" "1 672 32 1376"
+				"point" "2 672 -32 1376"
+				"point" "3 1376 -32 1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5574,17 +5574,17 @@ entity
 		side
 		{
 			"id" "1420"
-			"plane" "(704 -16 1376) (704 48 1376) (704 48 1440)"
+			"plane" "(672 -32 1376) (672 32 1376) (672 32 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 -16 1376"
-				"point" "1 704 48 1376"
-				"point" "2 704 48 1440"
-				"point" "3 704 -16 1440"
+				"point" "0 672 -32 1376"
+				"point" "1 672 32 1376"
+				"point" "2 672 32 1440"
+				"point" "3 672 -32 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5593,14 +5593,14 @@ entity
 		side
 		{
 			"id" "1419"
-			"plane" "(704 48 1376) (1376 48 1376) (1376 48 1440)"
+			"plane" "(672 32 1376) (1376 32 1376) (1376 32 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 704 48 1376"
-				"point" "1 1376 48 1376"
-				"point" "2 1376 48 1440"
-				"point" "3 704 48 1440"
+				"point" "0 672 32 1376"
+				"point" "1 1376 32 1376"
+				"point" "2 1376 32 1440"
+				"point" "3 672 32 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -5612,14 +5612,14 @@ entity
 		side
 		{
 			"id" "1418"
-			"plane" "(1376 -16 1376) (704 -16 1376) (704 -16 1440)"
+			"plane" "(1376 -32 1376) (672 -32 1376) (672 -32 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 1376"
-				"point" "1 704 -16 1376"
-				"point" "2 704 -16 1440"
-				"point" "3 1376 -16 1440"
+				"point" "0 1376 -32 1376"
+				"point" "1 672 -32 1376"
+				"point" "2 672 -32 1440"
+				"point" "3 1376 -32 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -5631,17 +5631,17 @@ entity
 		side
 		{
 			"id" "1417"
-			"plane" "(1376 48 1376) (1376 -16 1376) (1376 -16 1440)"
+			"plane" "(1376 32 1376) (1376 -32 1376) (1376 -32 1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 1376"
-				"point" "1 1376 -16 1376"
-				"point" "2 1376 -16 1440"
-				"point" "3 1376 48 1440"
+				"point" "0 1376 32 1376"
+				"point" "1 1376 -32 1376"
+				"point" "2 1376 -32 1440"
+				"point" "3 1376 32 1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -5660,18 +5660,18 @@ entity
 		side
 		{
 			"id" "1428"
-			"plane" "(-672 -16 1184) (-1376 -16 1184) (-1376 48 1184)"
+			"plane" "(-640 -32 1184) (-1376 -32 1184) (-1376 32 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -672 -16 1184"
-				"point" "1 -1376 -16 1184"
-				"point" "2 -1376 48 1184"
-				"point" "3 -672 48 1184"
+				"point" "0 -640 -32 1184"
+				"point" "1 -1376 -32 1184"
+				"point" "2 -1376 32 1184"
+				"point" "3 -640 32 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5679,18 +5679,18 @@ entity
 		side
 		{
 			"id" "1427"
-			"plane" "(-672 48 1120) (-1376 48 1120) (-1376 -16 1120)"
+			"plane" "(-640 32 1120) (-1376 32 1120) (-1376 -32 1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -672 48 1120"
-				"point" "1 -1376 48 1120"
-				"point" "2 -1376 -16 1120"
-				"point" "3 -672 -16 1120"
+				"point" "0 -640 32 1120"
+				"point" "1 -1376 32 1120"
+				"point" "2 -1376 -32 1120"
+				"point" "3 -640 -32 1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5698,17 +5698,17 @@ entity
 		side
 		{
 			"id" "1426"
-			"plane" "(-1376 -16 1120) (-1376 48 1120) (-1376 48 1184)"
+			"plane" "(-1376 -32 1120) (-1376 32 1120) (-1376 32 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 1120"
-				"point" "1 -1376 48 1120"
-				"point" "2 -1376 48 1184"
-				"point" "3 -1376 -16 1184"
+				"point" "0 -1376 -32 1120"
+				"point" "1 -1376 32 1120"
+				"point" "2 -1376 32 1184"
+				"point" "3 -1376 -32 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5717,14 +5717,14 @@ entity
 		side
 		{
 			"id" "1425"
-			"plane" "(-1376 48 1120) (-672 48 1120) (-672 48 1184)"
+			"plane" "(-1376 32 1120) (-640 32 1120) (-640 32 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 1120"
-				"point" "1 -672 48 1120"
-				"point" "2 -672 48 1184"
-				"point" "3 -1376 48 1184"
+				"point" "0 -1376 32 1120"
+				"point" "1 -640 32 1120"
+				"point" "2 -640 32 1184"
+				"point" "3 -1376 32 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -5736,14 +5736,14 @@ entity
 		side
 		{
 			"id" "1424"
-			"plane" "(-672 -16 1120) (-1376 -16 1120) (-1376 -16 1184)"
+			"plane" "(-640 -32 1120) (-1376 -32 1120) (-1376 -32 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -672 -16 1120"
-				"point" "1 -1376 -16 1120"
-				"point" "2 -1376 -16 1184"
-				"point" "3 -672 -16 1184"
+				"point" "0 -640 -32 1120"
+				"point" "1 -1376 -32 1120"
+				"point" "2 -1376 -32 1184"
+				"point" "3 -640 -32 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -5755,17 +5755,17 @@ entity
 		side
 		{
 			"id" "1423"
-			"plane" "(-672 48 1120) (-672 -16 1120) (-672 -16 1184)"
+			"plane" "(-640 32 1120) (-640 -32 1120) (-640 -32 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -672 48 1120"
-				"point" "1 -672 -16 1120"
-				"point" "2 -672 -16 1184"
-				"point" "3 -672 48 1184"
+				"point" "0 -640 32 1120"
+				"point" "1 -640 -32 1120"
+				"point" "2 -640 -32 1184"
+				"point" "3 -640 32 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -5784,14 +5784,14 @@ entity
 		side
 		{
 			"id" "1434"
-			"plane" "(-32 720 1184) (-32 1392 1184) (32 1392 1184)"
+			"plane" "(-32 656 1184) (-32 1392 1184) (32 1392 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 720 1184"
+				"point" "0 -32 656 1184"
 				"point" "1 -32 1392 1184"
 				"point" "2 32 1392 1184"
-				"point" "3 32 720 1184"
+				"point" "3 32 656 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -5803,14 +5803,14 @@ entity
 		side
 		{
 			"id" "1433"
-			"plane" "(32 720 1120) (32 1392 1120) (-32 1392 1120)"
+			"plane" "(32 656 1120) (32 1392 1120) (-32 1392 1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 720 1120"
+				"point" "0 32 656 1120"
 				"point" "1 32 1392 1120"
 				"point" "2 -32 1392 1120"
-				"point" "3 -32 720 1120"
+				"point" "3 -32 656 1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -5841,13 +5841,13 @@ entity
 		side
 		{
 			"id" "1431"
-			"plane" "(32 1392 1120) (32 720 1120) (32 720 1184)"
+			"plane" "(32 1392 1120) (32 656 1120) (32 656 1184)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 32 1392 1120"
-				"point" "1 32 720 1120"
-				"point" "2 32 720 1184"
+				"point" "1 32 656 1120"
+				"point" "2 32 656 1184"
 				"point" "3 32 1392 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
@@ -5860,14 +5860,14 @@ entity
 		side
 		{
 			"id" "1430"
-			"plane" "(-32 720 1120) (-32 1392 1120) (-32 1392 1184)"
+			"plane" "(-32 656 1120) (-32 1392 1120) (-32 1392 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 720 1120"
+				"point" "0 -32 656 1120"
 				"point" "1 -32 1392 1120"
 				"point" "2 -32 1392 1184"
-				"point" "3 -32 720 1184"
+				"point" "3 -32 656 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -5879,14 +5879,14 @@ entity
 		side
 		{
 			"id" "1429"
-			"plane" "(32 720 1120) (-32 720 1120) (-32 720 1184)"
+			"plane" "(32 656 1120) (-32 656 1120) (-32 656 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 720 1120"
-				"point" "1 -32 720 1120"
-				"point" "2 -32 720 1184"
-				"point" "3 32 720 1184"
+				"point" "0 32 656 1120"
+				"point" "1 -32 656 1120"
+				"point" "2 -32 656 1184"
+				"point" "3 32 656 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -5908,18 +5908,18 @@ entity
 		side
 		{
 			"id" "1440"
-			"plane" "(1376 -16 1184) (672 -16 1184) (672 48 1184)"
+			"plane" "(1376 -32 1184) (640 -32 1184) (640 32 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 1184"
-				"point" "1 672 -16 1184"
-				"point" "2 672 48 1184"
-				"point" "3 1376 48 1184"
+				"point" "0 1376 -32 1184"
+				"point" "1 640 -32 1184"
+				"point" "2 640 32 1184"
+				"point" "3 1376 32 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5927,18 +5927,18 @@ entity
 		side
 		{
 			"id" "1439"
-			"plane" "(1376 48 1120) (672 48 1120) (672 -16 1120)"
+			"plane" "(1376 32 1120) (640 32 1120) (640 -32 1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 1120"
-				"point" "1 672 48 1120"
-				"point" "2 672 -16 1120"
-				"point" "3 1376 -16 1120"
+				"point" "0 1376 32 1120"
+				"point" "1 640 32 1120"
+				"point" "2 640 -32 1120"
+				"point" "3 1376 -32 1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5946,17 +5946,17 @@ entity
 		side
 		{
 			"id" "1438"
-			"plane" "(672 -16 1120) (672 48 1120) (672 48 1184)"
+			"plane" "(640 -32 1120) (640 32 1120) (640 32 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 672 -16 1120"
-				"point" "1 672 48 1120"
-				"point" "2 672 48 1184"
-				"point" "3 672 -16 1184"
+				"point" "0 640 -32 1120"
+				"point" "1 640 32 1120"
+				"point" "2 640 32 1184"
+				"point" "3 640 -32 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5965,14 +5965,14 @@ entity
 		side
 		{
 			"id" "1437"
-			"plane" "(672 48 1120) (1376 48 1120) (1376 48 1184)"
+			"plane" "(640 32 1120) (1376 32 1120) (1376 32 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 672 48 1120"
-				"point" "1 1376 48 1120"
-				"point" "2 1376 48 1184"
-				"point" "3 672 48 1184"
+				"point" "0 640 32 1120"
+				"point" "1 1376 32 1120"
+				"point" "2 1376 32 1184"
+				"point" "3 640 32 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -5984,14 +5984,14 @@ entity
 		side
 		{
 			"id" "1436"
-			"plane" "(1376 -16 1120) (672 -16 1120) (672 -16 1184)"
+			"plane" "(1376 -32 1120) (640 -32 1120) (640 -32 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 1120"
-				"point" "1 672 -16 1120"
-				"point" "2 672 -16 1184"
-				"point" "3 1376 -16 1184"
+				"point" "0 1376 -32 1120"
+				"point" "1 640 -32 1120"
+				"point" "2 640 -32 1184"
+				"point" "3 1376 -32 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6003,17 +6003,17 @@ entity
 		side
 		{
 			"id" "1435"
-			"plane" "(1376 48 1120) (1376 -16 1120) (1376 -16 1184)"
+			"plane" "(1376 32 1120) (1376 -32 1120) (1376 -32 1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 1120"
-				"point" "1 1376 -16 1120"
-				"point" "2 1376 -16 1184"
-				"point" "3 1376 48 1184"
+				"point" "0 1376 32 1120"
+				"point" "1 1376 -32 1120"
+				"point" "2 1376 -32 1184"
+				"point" "3 1376 32 1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -6032,18 +6032,18 @@ entity
 		side
 		{
 			"id" "1446"
-			"plane" "(-640 -16 928) (-1376 -16 928) (-1376 48 928)"
+			"plane" "(-608 -32 928) (-1376 -32 928) (-1376 32 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -16 928"
-				"point" "1 -1376 -16 928"
-				"point" "2 -1376 48 928"
-				"point" "3 -640 48 928"
+				"point" "0 -608 -32 928"
+				"point" "1 -1376 -32 928"
+				"point" "2 -1376 32 928"
+				"point" "3 -608 32 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6051,18 +6051,18 @@ entity
 		side
 		{
 			"id" "1445"
-			"plane" "(-640 48 864) (-1376 48 864) (-1376 -16 864)"
+			"plane" "(-608 32 864) (-1376 32 864) (-1376 -32 864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 48 864"
-				"point" "1 -1376 48 864"
-				"point" "2 -1376 -16 864"
-				"point" "3 -640 -16 864"
+				"point" "0 -608 32 864"
+				"point" "1 -1376 32 864"
+				"point" "2 -1376 -32 864"
+				"point" "3 -608 -32 864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6070,17 +6070,17 @@ entity
 		side
 		{
 			"id" "1444"
-			"plane" "(-1376 -16 864) (-1376 48 864) (-1376 48 928)"
+			"plane" "(-1376 -32 864) (-1376 32 864) (-1376 32 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 864"
-				"point" "1 -1376 48 864"
-				"point" "2 -1376 48 928"
-				"point" "3 -1376 -16 928"
+				"point" "0 -1376 -32 864"
+				"point" "1 -1376 32 864"
+				"point" "2 -1376 32 928"
+				"point" "3 -1376 -32 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -6089,14 +6089,14 @@ entity
 		side
 		{
 			"id" "1443"
-			"plane" "(-1376 48 864) (-640 48 864) (-640 48 928)"
+			"plane" "(-1376 32 864) (-608 32 864) (-608 32 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 864"
-				"point" "1 -640 48 864"
-				"point" "2 -640 48 928"
-				"point" "3 -1376 48 928"
+				"point" "0 -1376 32 864"
+				"point" "1 -608 32 864"
+				"point" "2 -608 32 928"
+				"point" "3 -1376 32 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6108,14 +6108,14 @@ entity
 		side
 		{
 			"id" "1442"
-			"plane" "(-640 -16 864) (-1376 -16 864) (-1376 -16 928)"
+			"plane" "(-608 -32 864) (-1376 -32 864) (-1376 -32 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 -16 864"
-				"point" "1 -1376 -16 864"
-				"point" "2 -1376 -16 928"
-				"point" "3 -640 -16 928"
+				"point" "0 -608 -32 864"
+				"point" "1 -1376 -32 864"
+				"point" "2 -1376 -32 928"
+				"point" "3 -608 -32 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6127,17 +6127,17 @@ entity
 		side
 		{
 			"id" "1441"
-			"plane" "(-640 48 864) (-640 -16 864) (-640 -16 928)"
+			"plane" "(-608 32 864) (-608 -32 864) (-608 -32 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -640 48 864"
-				"point" "1 -640 -16 864"
-				"point" "2 -640 -16 928"
-				"point" "3 -640 48 928"
+				"point" "0 -608 32 864"
+				"point" "1 -608 -32 864"
+				"point" "2 -608 -32 928"
+				"point" "3 -608 32 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -6156,14 +6156,14 @@ entity
 		side
 		{
 			"id" "1452"
-			"plane" "(-32 688 928) (-32 1392 928) (32 1392 928)"
+			"plane" "(-32 624 928) (-32 1392 928) (32 1392 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 688 928"
+				"point" "0 -32 624 928"
 				"point" "1 -32 1392 928"
 				"point" "2 32 1392 928"
-				"point" "3 32 688 928"
+				"point" "3 32 624 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -6175,14 +6175,14 @@ entity
 		side
 		{
 			"id" "1451"
-			"plane" "(32 688 864) (32 1392 864) (-32 1392 864)"
+			"plane" "(32 624 864) (32 1392 864) (-32 1392 864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 688 864"
+				"point" "0 32 624 864"
 				"point" "1 32 1392 864"
 				"point" "2 -32 1392 864"
-				"point" "3 -32 688 864"
+				"point" "3 -32 624 864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -6213,13 +6213,13 @@ entity
 		side
 		{
 			"id" "1449"
-			"plane" "(32 1392 864) (32 688 864) (32 688 928)"
+			"plane" "(32 1392 864) (32 624 864) (32 624 928)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 32 1392 864"
-				"point" "1 32 688 864"
-				"point" "2 32 688 928"
+				"point" "1 32 624 864"
+				"point" "2 32 624 928"
 				"point" "3 32 1392 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
@@ -6232,14 +6232,14 @@ entity
 		side
 		{
 			"id" "1448"
-			"plane" "(-32 688 864) (-32 1392 864) (-32 1392 928)"
+			"plane" "(-32 624 864) (-32 1392 864) (-32 1392 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 688 864"
+				"point" "0 -32 624 864"
 				"point" "1 -32 1392 864"
 				"point" "2 -32 1392 928"
-				"point" "3 -32 688 928"
+				"point" "3 -32 624 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -6251,14 +6251,14 @@ entity
 		side
 		{
 			"id" "1447"
-			"plane" "(32 688 864) (-32 688 864) (-32 688 928)"
+			"plane" "(32 624 864) (-32 624 864) (-32 624 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 688 864"
-				"point" "1 -32 688 864"
-				"point" "2 -32 688 928"
-				"point" "3 32 688 928"
+				"point" "0 32 624 864"
+				"point" "1 -32 624 864"
+				"point" "2 -32 624 928"
+				"point" "3 32 624 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6280,18 +6280,18 @@ entity
 		side
 		{
 			"id" "1458"
-			"plane" "(1376 -16 928) (640 -16 928) (640 48 928)"
+			"plane" "(1376 -32 928) (608 -32 928) (608 32 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 928"
-				"point" "1 640 -16 928"
-				"point" "2 640 48 928"
-				"point" "3 1376 48 928"
+				"point" "0 1376 -32 928"
+				"point" "1 608 -32 928"
+				"point" "2 608 32 928"
+				"point" "3 1376 32 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6299,18 +6299,18 @@ entity
 		side
 		{
 			"id" "1457"
-			"plane" "(1376 48 864) (640 48 864) (640 -16 864)"
+			"plane" "(1376 32 864) (608 32 864) (608 -32 864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 864"
-				"point" "1 640 48 864"
-				"point" "2 640 -16 864"
-				"point" "3 1376 -16 864"
+				"point" "0 1376 32 864"
+				"point" "1 608 32 864"
+				"point" "2 608 -32 864"
+				"point" "3 1376 -32 864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6318,17 +6318,17 @@ entity
 		side
 		{
 			"id" "1456"
-			"plane" "(640 -16 864) (640 48 864) (640 48 928)"
+			"plane" "(608 -32 864) (608 32 864) (608 32 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 -16 864"
-				"point" "1 640 48 864"
-				"point" "2 640 48 928"
-				"point" "3 640 -16 928"
+				"point" "0 608 -32 864"
+				"point" "1 608 32 864"
+				"point" "2 608 32 928"
+				"point" "3 608 -32 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -6337,14 +6337,14 @@ entity
 		side
 		{
 			"id" "1455"
-			"plane" "(640 48 864) (1376 48 864) (1376 48 928)"
+			"plane" "(608 32 864) (1376 32 864) (1376 32 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 640 48 864"
-				"point" "1 1376 48 864"
-				"point" "2 1376 48 928"
-				"point" "3 640 48 928"
+				"point" "0 608 32 864"
+				"point" "1 1376 32 864"
+				"point" "2 1376 32 928"
+				"point" "3 608 32 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6356,14 +6356,14 @@ entity
 		side
 		{
 			"id" "1454"
-			"plane" "(1376 -16 864) (640 -16 864) (640 -16 928)"
+			"plane" "(1376 -32 864) (608 -32 864) (608 -32 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 864"
-				"point" "1 640 -16 864"
-				"point" "2 640 -16 928"
-				"point" "3 1376 -16 928"
+				"point" "0 1376 -32 864"
+				"point" "1 608 -32 864"
+				"point" "2 608 -32 928"
+				"point" "3 1376 -32 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6375,17 +6375,17 @@ entity
 		side
 		{
 			"id" "1453"
-			"plane" "(1376 48 864) (1376 -16 864) (1376 -16 928)"
+			"plane" "(1376 32 864) (1376 -32 864) (1376 -32 928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 864"
-				"point" "1 1376 -16 864"
-				"point" "2 1376 -16 928"
-				"point" "3 1376 48 928"
+				"point" "0 1376 32 864"
+				"point" "1 1376 -32 864"
+				"point" "2 1376 -32 928"
+				"point" "3 1376 32 928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -6404,18 +6404,18 @@ entity
 		side
 		{
 			"id" "1464"
-			"plane" "(-608 -16 672) (-1376 -16 672) (-1376 48 672)"
+			"plane" "(-576 -32 672) (-1376 -32 672) (-1376 32 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -608 -16 672"
-				"point" "1 -1376 -16 672"
-				"point" "2 -1376 48 672"
-				"point" "3 -608 48 672"
+				"point" "0 -576 -32 672"
+				"point" "1 -1376 -32 672"
+				"point" "2 -1376 32 672"
+				"point" "3 -576 32 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6423,18 +6423,18 @@ entity
 		side
 		{
 			"id" "1463"
-			"plane" "(-608 48 608) (-1376 48 608) (-1376 -16 608)"
+			"plane" "(-576 32 608) (-1376 32 608) (-1376 -32 608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -608 48 608"
-				"point" "1 -1376 48 608"
-				"point" "2 -1376 -16 608"
-				"point" "3 -608 -16 608"
+				"point" "0 -576 32 608"
+				"point" "1 -1376 32 608"
+				"point" "2 -1376 -32 608"
+				"point" "3 -576 -32 608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6442,17 +6442,17 @@ entity
 		side
 		{
 			"id" "1462"
-			"plane" "(-1376 -16 608) (-1376 48 608) (-1376 48 672)"
+			"plane" "(-1376 -32 608) (-1376 32 608) (-1376 32 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 608"
-				"point" "1 -1376 48 608"
-				"point" "2 -1376 48 672"
-				"point" "3 -1376 -16 672"
+				"point" "0 -1376 -32 608"
+				"point" "1 -1376 32 608"
+				"point" "2 -1376 32 672"
+				"point" "3 -1376 -32 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -6461,14 +6461,14 @@ entity
 		side
 		{
 			"id" "1461"
-			"plane" "(-1376 48 608) (-608 48 608) (-608 48 672)"
+			"plane" "(-1376 32 608) (-576 32 608) (-576 32 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 608"
-				"point" "1 -608 48 608"
-				"point" "2 -608 48 672"
-				"point" "3 -1376 48 672"
+				"point" "0 -1376 32 608"
+				"point" "1 -576 32 608"
+				"point" "2 -576 32 672"
+				"point" "3 -1376 32 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6480,14 +6480,14 @@ entity
 		side
 		{
 			"id" "1460"
-			"plane" "(-608 -16 608) (-1376 -16 608) (-1376 -16 672)"
+			"plane" "(-576 -32 608) (-1376 -32 608) (-1376 -32 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -608 -16 608"
-				"point" "1 -1376 -16 608"
-				"point" "2 -1376 -16 672"
-				"point" "3 -608 -16 672"
+				"point" "0 -576 -32 608"
+				"point" "1 -1376 -32 608"
+				"point" "2 -1376 -32 672"
+				"point" "3 -576 -32 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6499,17 +6499,17 @@ entity
 		side
 		{
 			"id" "1459"
-			"plane" "(-608 48 608) (-608 -16 608) (-608 -16 672)"
+			"plane" "(-576 32 608) (-576 -32 608) (-576 -32 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -608 48 608"
-				"point" "1 -608 -16 608"
-				"point" "2 -608 -16 672"
-				"point" "3 -608 48 672"
+				"point" "0 -576 32 608"
+				"point" "1 -576 -32 608"
+				"point" "2 -576 -32 672"
+				"point" "3 -576 32 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -6528,14 +6528,14 @@ entity
 		side
 		{
 			"id" "1470"
-			"plane" "(-32 656 672) (-32 1392 672) (32 1392 672)"
+			"plane" "(-32 592 672) (-32 1392 672) (32 1392 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 656 672"
+				"point" "0 -32 592 672"
 				"point" "1 -32 1392 672"
 				"point" "2 32 1392 672"
-				"point" "3 32 656 672"
+				"point" "3 32 592 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -6547,14 +6547,14 @@ entity
 		side
 		{
 			"id" "1469"
-			"plane" "(32 656 608) (32 1392 608) (-32 1392 608)"
+			"plane" "(32 592 608) (32 1392 608) (-32 1392 608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 656 608"
+				"point" "0 32 592 608"
 				"point" "1 32 1392 608"
 				"point" "2 -32 1392 608"
-				"point" "3 -32 656 608"
+				"point" "3 -32 592 608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -6585,13 +6585,13 @@ entity
 		side
 		{
 			"id" "1467"
-			"plane" "(32 1392 608) (32 656 608) (32 656 672)"
+			"plane" "(32 1392 608) (32 592 608) (32 592 672)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 32 1392 608"
-				"point" "1 32 656 608"
-				"point" "2 32 656 672"
+				"point" "1 32 592 608"
+				"point" "2 32 592 672"
 				"point" "3 32 1392 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
@@ -6604,14 +6604,14 @@ entity
 		side
 		{
 			"id" "1466"
-			"plane" "(-32 656 608) (-32 1392 608) (-32 1392 672)"
+			"plane" "(-32 592 608) (-32 1392 608) (-32 1392 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 656 608"
+				"point" "0 -32 592 608"
 				"point" "1 -32 1392 608"
 				"point" "2 -32 1392 672"
-				"point" "3 -32 656 672"
+				"point" "3 -32 592 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -6623,14 +6623,14 @@ entity
 		side
 		{
 			"id" "1465"
-			"plane" "(32 656 608) (-32 656 608) (-32 656 672)"
+			"plane" "(32 592 608) (-32 592 608) (-32 592 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 656 608"
-				"point" "1 -32 656 608"
-				"point" "2 -32 656 672"
-				"point" "3 32 656 672"
+				"point" "0 32 592 608"
+				"point" "1 -32 592 608"
+				"point" "2 -32 592 672"
+				"point" "3 32 592 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6652,18 +6652,18 @@ entity
 		side
 		{
 			"id" "1476"
-			"plane" "(1376 -16 672) (608 -16 672) (608 48 672)"
+			"plane" "(1376 -32 672) (576 -32 672) (576 32 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 672"
-				"point" "1 608 -16 672"
-				"point" "2 608 48 672"
-				"point" "3 1376 48 672"
+				"point" "0 1376 -32 672"
+				"point" "1 576 -32 672"
+				"point" "2 576 32 672"
+				"point" "3 1376 32 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6671,18 +6671,18 @@ entity
 		side
 		{
 			"id" "1475"
-			"plane" "(1376 48 608) (608 48 608) (608 -16 608)"
+			"plane" "(1376 32 608) (576 32 608) (576 -32 608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 608"
-				"point" "1 608 48 608"
-				"point" "2 608 -16 608"
-				"point" "3 1376 -16 608"
+				"point" "0 1376 32 608"
+				"point" "1 576 32 608"
+				"point" "2 576 -32 608"
+				"point" "3 1376 -32 608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6690,17 +6690,17 @@ entity
 		side
 		{
 			"id" "1474"
-			"plane" "(608 -16 608) (608 48 608) (608 48 672)"
+			"plane" "(576 -32 608) (576 32 608) (576 32 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 608 -16 608"
-				"point" "1 608 48 608"
-				"point" "2 608 48 672"
-				"point" "3 608 -16 672"
+				"point" "0 576 -32 608"
+				"point" "1 576 32 608"
+				"point" "2 576 32 672"
+				"point" "3 576 -32 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -6709,14 +6709,14 @@ entity
 		side
 		{
 			"id" "1473"
-			"plane" "(608 48 608) (1376 48 608) (1376 48 672)"
+			"plane" "(576 32 608) (1376 32 608) (1376 32 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 608 48 608"
-				"point" "1 1376 48 608"
-				"point" "2 1376 48 672"
-				"point" "3 608 48 672"
+				"point" "0 576 32 608"
+				"point" "1 1376 32 608"
+				"point" "2 1376 32 672"
+				"point" "3 576 32 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6728,14 +6728,14 @@ entity
 		side
 		{
 			"id" "1472"
-			"plane" "(1376 -16 608) (608 -16 608) (608 -16 672)"
+			"plane" "(1376 -32 608) (576 -32 608) (576 -32 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 608"
-				"point" "1 608 -16 608"
-				"point" "2 608 -16 672"
-				"point" "3 1376 -16 672"
+				"point" "0 1376 -32 608"
+				"point" "1 576 -32 608"
+				"point" "2 576 -32 672"
+				"point" "3 1376 -32 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6747,17 +6747,17 @@ entity
 		side
 		{
 			"id" "1471"
-			"plane" "(1376 48 608) (1376 -16 608) (1376 -16 672)"
+			"plane" "(1376 32 608) (1376 -32 608) (1376 -32 672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 608"
-				"point" "1 1376 -16 608"
-				"point" "2 1376 -16 672"
-				"point" "3 1376 48 672"
+				"point" "0 1376 32 608"
+				"point" "1 1376 -32 608"
+				"point" "2 1376 -32 672"
+				"point" "3 1376 32 672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -6776,18 +6776,18 @@ entity
 		side
 		{
 			"id" "1482"
-			"plane" "(-576 -16 416) (-1376 -16 416) (-1376 48 416)"
+			"plane" "(-544 -32 416) (-1376 -32 416) (-1376 32 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -16 416"
-				"point" "1 -1376 -16 416"
-				"point" "2 -1376 48 416"
-				"point" "3 -576 48 416"
+				"point" "0 -544 -32 416"
+				"point" "1 -1376 -32 416"
+				"point" "2 -1376 32 416"
+				"point" "3 -544 32 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6795,18 +6795,18 @@ entity
 		side
 		{
 			"id" "1481"
-			"plane" "(-576 48 352) (-1376 48 352) (-1376 -16 352)"
+			"plane" "(-544 32 352) (-1376 32 352) (-1376 -32 352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 48 352"
-				"point" "1 -1376 48 352"
-				"point" "2 -1376 -16 352"
-				"point" "3 -576 -16 352"
+				"point" "0 -544 32 352"
+				"point" "1 -1376 32 352"
+				"point" "2 -1376 -32 352"
+				"point" "3 -544 -32 352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -6814,17 +6814,17 @@ entity
 		side
 		{
 			"id" "1480"
-			"plane" "(-1376 -16 352) (-1376 48 352) (-1376 48 416)"
+			"plane" "(-1376 -32 352) (-1376 32 352) (-1376 32 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 352"
-				"point" "1 -1376 48 352"
-				"point" "2 -1376 48 416"
-				"point" "3 -1376 -16 416"
+				"point" "0 -1376 -32 352"
+				"point" "1 -1376 32 352"
+				"point" "2 -1376 32 416"
+				"point" "3 -1376 -32 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -6833,14 +6833,14 @@ entity
 		side
 		{
 			"id" "1479"
-			"plane" "(-1376 48 352) (-576 48 352) (-576 48 416)"
+			"plane" "(-1376 32 352) (-544 32 352) (-544 32 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 352"
-				"point" "1 -576 48 352"
-				"point" "2 -576 48 416"
-				"point" "3 -1376 48 416"
+				"point" "0 -1376 32 352"
+				"point" "1 -544 32 352"
+				"point" "2 -544 32 416"
+				"point" "3 -1376 32 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6852,14 +6852,14 @@ entity
 		side
 		{
 			"id" "1478"
-			"plane" "(-576 -16 352) (-1376 -16 352) (-1376 -16 416)"
+			"plane" "(-544 -32 352) (-1376 -32 352) (-1376 -32 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 -16 352"
-				"point" "1 -1376 -16 352"
-				"point" "2 -1376 -16 416"
-				"point" "3 -576 -16 416"
+				"point" "0 -544 -32 352"
+				"point" "1 -1376 -32 352"
+				"point" "2 -1376 -32 416"
+				"point" "3 -544 -32 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -6871,17 +6871,17 @@ entity
 		side
 		{
 			"id" "1477"
-			"plane" "(-576 48 352) (-576 -16 352) (-576 -16 416)"
+			"plane" "(-544 32 352) (-544 -32 352) (-544 -32 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -576 48 352"
-				"point" "1 -576 -16 352"
-				"point" "2 -576 -16 416"
-				"point" "3 -576 48 416"
+				"point" "0 -544 32 352"
+				"point" "1 -544 -32 352"
+				"point" "2 -544 -32 416"
+				"point" "3 -544 32 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -6900,14 +6900,14 @@ entity
 		side
 		{
 			"id" "1488"
-			"plane" "(-32 624 416) (-32 1392 416) (32 1392 416)"
+			"plane" "(-32 560 416) (-32 1392 416) (32 1392 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 624 416"
+				"point" "0 -32 560 416"
 				"point" "1 -32 1392 416"
 				"point" "2 32 1392 416"
-				"point" "3 32 624 416"
+				"point" "3 32 560 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -6919,14 +6919,14 @@ entity
 		side
 		{
 			"id" "1487"
-			"plane" "(32 624 352) (32 1392 352) (-32 1392 352)"
+			"plane" "(32 560 352) (32 1392 352) (-32 1392 352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 624 352"
+				"point" "0 32 560 352"
 				"point" "1 32 1392 352"
 				"point" "2 -32 1392 352"
-				"point" "3 -32 624 352"
+				"point" "3 -32 560 352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[0 1 0 -96] 0.5"
@@ -6957,13 +6957,13 @@ entity
 		side
 		{
 			"id" "1485"
-			"plane" "(32 1392 352) (32 624 352) (32 624 416)"
+			"plane" "(32 1392 352) (32 560 352) (32 560 416)"
 			point_data
 			{
 				"numpts" "4"
 				"point" "0 32 1392 352"
-				"point" "1 32 624 352"
-				"point" "2 32 624 416"
+				"point" "1 32 560 352"
+				"point" "2 32 560 416"
 				"point" "3 32 1392 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
@@ -6976,14 +6976,14 @@ entity
 		side
 		{
 			"id" "1484"
-			"plane" "(-32 624 352) (-32 1392 352) (-32 1392 416)"
+			"plane" "(-32 560 352) (-32 1392 352) (-32 1392 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -32 624 352"
+				"point" "0 -32 560 352"
 				"point" "1 -32 1392 352"
 				"point" "2 -32 1392 416"
-				"point" "3 -32 624 416"
+				"point" "3 -32 560 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[0 1 0 -32] 0.5"
@@ -6995,14 +6995,14 @@ entity
 		side
 		{
 			"id" "1483"
-			"plane" "(32 624 352) (-32 624 352) (-32 624 416)"
+			"plane" "(32 560 352) (-32 560 352) (-32 560 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 32 624 352"
-				"point" "1 -32 624 352"
-				"point" "2 -32 624 416"
-				"point" "3 32 624 416"
+				"point" "0 32 560 352"
+				"point" "1 -32 560 352"
+				"point" "2 -32 560 416"
+				"point" "3 32 560 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7024,18 +7024,18 @@ entity
 		side
 		{
 			"id" "1494"
-			"plane" "(1376 -16 416) (576 -16 416) (576 48 416)"
+			"plane" "(1376 -32 416) (544 -32 416) (544 32 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 416"
-				"point" "1 576 -16 416"
-				"point" "2 576 48 416"
-				"point" "3 1376 48 416"
+				"point" "0 1376 -32 416"
+				"point" "1 544 -32 416"
+				"point" "2 544 32 416"
+				"point" "3 1376 32 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7043,18 +7043,18 @@ entity
 		side
 		{
 			"id" "1493"
-			"plane" "(1376 48 352) (576 48 352) (576 -16 352)"
+			"plane" "(1376 32 352) (544 32 352) (544 -32 352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 352"
-				"point" "1 576 48 352"
-				"point" "2 576 -16 352"
-				"point" "3 1376 -16 352"
+				"point" "0 1376 32 352"
+				"point" "1 544 32 352"
+				"point" "2 544 -32 352"
+				"point" "3 1376 -32 352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7062,17 +7062,17 @@ entity
 		side
 		{
 			"id" "1492"
-			"plane" "(576 -16 352) (576 48 352) (576 48 416)"
+			"plane" "(544 -32 352) (544 32 352) (544 32 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 -16 352"
-				"point" "1 576 48 352"
-				"point" "2 576 48 416"
-				"point" "3 576 -16 416"
+				"point" "0 544 -32 352"
+				"point" "1 544 32 352"
+				"point" "2 544 32 416"
+				"point" "3 544 -32 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -7081,14 +7081,14 @@ entity
 		side
 		{
 			"id" "1491"
-			"plane" "(576 48 352) (1376 48 352) (1376 48 416)"
+			"plane" "(544 32 352) (1376 32 352) (1376 32 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 576 48 352"
-				"point" "1 1376 48 352"
-				"point" "2 1376 48 416"
-				"point" "3 576 48 416"
+				"point" "0 544 32 352"
+				"point" "1 1376 32 352"
+				"point" "2 1376 32 416"
+				"point" "3 544 32 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7100,14 +7100,14 @@ entity
 		side
 		{
 			"id" "1490"
-			"plane" "(1376 -16 352) (576 -16 352) (576 -16 416)"
+			"plane" "(1376 -32 352) (544 -32 352) (544 -32 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 352"
-				"point" "1 576 -16 352"
-				"point" "2 576 -16 416"
-				"point" "3 1376 -16 416"
+				"point" "0 1376 -32 352"
+				"point" "1 544 -32 352"
+				"point" "2 544 -32 416"
+				"point" "3 1376 -32 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7119,17 +7119,17 @@ entity
 		side
 		{
 			"id" "1489"
-			"plane" "(1376 48 352) (1376 -16 352) (1376 -16 416)"
+			"plane" "(1376 32 352) (1376 -32 352) (1376 -32 416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 352"
-				"point" "1 1376 -16 352"
-				"point" "2 1376 -16 416"
-				"point" "3 1376 48 416"
+				"point" "0 1376 32 352"
+				"point" "1 1376 -32 352"
+				"point" "2 1376 -32 416"
+				"point" "3 1376 32 416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -7148,18 +7148,18 @@ entity
 		side
 		{
 			"id" "1500"
-			"plane" "(-512 -16 160) (-1376 -16 160) (-1376 48 160)"
+			"plane" "(-512 -32 160) (-1376 -32 160) (-1376 32 160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -512 -16 160"
-				"point" "1 -1376 -16 160"
-				"point" "2 -1376 48 160"
-				"point" "3 -512 48 160"
+				"point" "0 -512 -32 160"
+				"point" "1 -1376 -32 160"
+				"point" "2 -1376 32 160"
+				"point" "3 -512 32 160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7167,18 +7167,18 @@ entity
 		side
 		{
 			"id" "1499"
-			"plane" "(-512 48 96) (-1376 48 96) (-1376 -16 96)"
+			"plane" "(-512 32 96) (-1376 32 96) (-1376 -32 96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -512 48 96"
-				"point" "1 -1376 48 96"
-				"point" "2 -1376 -16 96"
-				"point" "3 -512 -16 96"
+				"point" "0 -512 32 96"
+				"point" "1 -1376 32 96"
+				"point" "2 -1376 -32 96"
+				"point" "3 -512 -32 96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7186,17 +7186,17 @@ entity
 		side
 		{
 			"id" "1498"
-			"plane" "(-1376 -16 96) (-1376 48 96) (-1376 48 160)"
+			"plane" "(-1376 -32 96) (-1376 32 96) (-1376 32 160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 96"
-				"point" "1 -1376 48 96"
-				"point" "2 -1376 48 160"
-				"point" "3 -1376 -16 160"
+				"point" "0 -1376 -32 96"
+				"point" "1 -1376 32 96"
+				"point" "2 -1376 32 160"
+				"point" "3 -1376 -32 160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -7205,14 +7205,14 @@ entity
 		side
 		{
 			"id" "1497"
-			"plane" "(-1376 48 96) (-512 48 96) (-512 48 160)"
+			"plane" "(-1376 32 96) (-512 32 96) (-512 32 160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 96"
-				"point" "1 -512 48 96"
-				"point" "2 -512 48 160"
-				"point" "3 -1376 48 160"
+				"point" "0 -1376 32 96"
+				"point" "1 -512 32 96"
+				"point" "2 -512 32 160"
+				"point" "3 -1376 32 160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7224,14 +7224,14 @@ entity
 		side
 		{
 			"id" "1496"
-			"plane" "(-512 -16 96) (-1376 -16 96) (-1376 -16 160)"
+			"plane" "(-512 -32 96) (-1376 -32 96) (-1376 -32 160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -512 -16 96"
-				"point" "1 -1376 -16 96"
-				"point" "2 -1376 -16 160"
-				"point" "3 -512 -16 160"
+				"point" "0 -512 -32 96"
+				"point" "1 -1376 -32 96"
+				"point" "2 -1376 -32 160"
+				"point" "3 -512 -32 160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7243,17 +7243,17 @@ entity
 		side
 		{
 			"id" "1495"
-			"plane" "(-512 48 96) (-512 -16 96) (-512 -16 160)"
+			"plane" "(-512 32 96) (-512 -32 96) (-512 -32 160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -512 48 96"
-				"point" "1 -512 -16 96"
-				"point" "2 -512 -16 160"
-				"point" "3 -512 48 160"
+				"point" "0 -512 32 96"
+				"point" "1 -512 -32 96"
+				"point" "2 -512 -32 160"
+				"point" "3 -512 32 160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -7396,18 +7396,18 @@ entity
 		side
 		{
 			"id" "1512"
-			"plane" "(1376 -16 160) (512 -16 160) (512 48 160)"
+			"plane" "(1376 -32 160) (512 -32 160) (512 32 160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 160"
-				"point" "1 512 -16 160"
-				"point" "2 512 48 160"
-				"point" "3 1376 48 160"
+				"point" "0 1376 -32 160"
+				"point" "1 512 -32 160"
+				"point" "2 512 32 160"
+				"point" "3 1376 32 160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7415,18 +7415,18 @@ entity
 		side
 		{
 			"id" "1511"
-			"plane" "(1376 48 96) (512 48 96) (512 -16 96)"
+			"plane" "(1376 32 96) (512 32 96) (512 -32 96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 96"
-				"point" "1 512 48 96"
-				"point" "2 512 -16 96"
-				"point" "3 1376 -16 96"
+				"point" "0 1376 32 96"
+				"point" "1 512 32 96"
+				"point" "2 512 -32 96"
+				"point" "3 1376 -32 96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7434,17 +7434,17 @@ entity
 		side
 		{
 			"id" "1510"
-			"plane" "(512 -16 96) (512 48 96) (512 48 160)"
+			"plane" "(512 -32 96) (512 32 96) (512 32 160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 512 -16 96"
-				"point" "1 512 48 96"
-				"point" "2 512 48 160"
-				"point" "3 512 -16 160"
+				"point" "0 512 -32 96"
+				"point" "1 512 32 96"
+				"point" "2 512 32 160"
+				"point" "3 512 -32 160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -7453,14 +7453,14 @@ entity
 		side
 		{
 			"id" "1509"
-			"plane" "(512 48 96) (1376 48 96) (1376 48 160)"
+			"plane" "(512 32 96) (1376 32 96) (1376 32 160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 512 48 96"
-				"point" "1 1376 48 96"
-				"point" "2 1376 48 160"
-				"point" "3 512 48 160"
+				"point" "0 512 32 96"
+				"point" "1 1376 32 96"
+				"point" "2 1376 32 160"
+				"point" "3 512 32 160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7472,14 +7472,14 @@ entity
 		side
 		{
 			"id" "1508"
-			"plane" "(1376 -16 96) (512 -16 96) (512 -16 160)"
+			"plane" "(1376 -32 96) (512 -32 96) (512 -32 160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 96"
-				"point" "1 512 -16 96"
-				"point" "2 512 -16 160"
-				"point" "3 1376 -16 160"
+				"point" "0 1376 -32 96"
+				"point" "1 512 -32 96"
+				"point" "2 512 -32 160"
+				"point" "3 1376 -32 160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7491,17 +7491,17 @@ entity
 		side
 		{
 			"id" "1507"
-			"plane" "(1376 48 96) (1376 -16 96) (1376 -16 160)"
+			"plane" "(1376 32 96) (1376 -32 96) (1376 -32 160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 96"
-				"point" "1 1376 -16 96"
-				"point" "2 1376 -16 160"
-				"point" "3 1376 48 160"
+				"point" "0 1376 32 96"
+				"point" "1 1376 -32 96"
+				"point" "2 1376 -32 160"
+				"point" "3 1376 32 160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -7520,18 +7520,18 @@ entity
 		side
 		{
 			"id" "1518"
-			"plane" "(-448 -16 -352) (-1376 -16 -352) (-1376 48 -352)"
+			"plane" "(-448 -32 -352) (-1376 -32 -352) (-1376 32 -352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -448 -16 -352"
-				"point" "1 -1376 -16 -352"
-				"point" "2 -1376 48 -352"
-				"point" "3 -448 48 -352"
+				"point" "0 -448 -32 -352"
+				"point" "1 -1376 -32 -352"
+				"point" "2 -1376 32 -352"
+				"point" "3 -448 32 -352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7539,18 +7539,18 @@ entity
 		side
 		{
 			"id" "1517"
-			"plane" "(-448 48 -416) (-1376 48 -416) (-1376 -16 -416)"
+			"plane" "(-448 32 -416) (-1376 32 -416) (-1376 -32 -416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -448 48 -416"
-				"point" "1 -1376 48 -416"
-				"point" "2 -1376 -16 -416"
-				"point" "3 -448 -16 -416"
+				"point" "0 -448 32 -416"
+				"point" "1 -1376 32 -416"
+				"point" "2 -1376 -32 -416"
+				"point" "3 -448 -32 -416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7558,17 +7558,17 @@ entity
 		side
 		{
 			"id" "1516"
-			"plane" "(-1376 -16 -416) (-1376 48 -416) (-1376 48 -352)"
+			"plane" "(-1376 -32 -416) (-1376 32 -416) (-1376 32 -352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 -416"
-				"point" "1 -1376 48 -416"
-				"point" "2 -1376 48 -352"
-				"point" "3 -1376 -16 -352"
+				"point" "0 -1376 -32 -416"
+				"point" "1 -1376 32 -416"
+				"point" "2 -1376 32 -352"
+				"point" "3 -1376 -32 -352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -7577,14 +7577,14 @@ entity
 		side
 		{
 			"id" "1515"
-			"plane" "(-1376 48 -416) (-448 48 -416) (-448 48 -352)"
+			"plane" "(-1376 32 -416) (-448 32 -416) (-448 32 -352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 -416"
-				"point" "1 -448 48 -416"
-				"point" "2 -448 48 -352"
-				"point" "3 -1376 48 -352"
+				"point" "0 -1376 32 -416"
+				"point" "1 -448 32 -416"
+				"point" "2 -448 32 -352"
+				"point" "3 -1376 32 -352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7596,14 +7596,14 @@ entity
 		side
 		{
 			"id" "1514"
-			"plane" "(-448 -16 -416) (-1376 -16 -416) (-1376 -16 -352)"
+			"plane" "(-448 -32 -416) (-1376 -32 -416) (-1376 -32 -352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -448 -16 -416"
-				"point" "1 -1376 -16 -416"
-				"point" "2 -1376 -16 -352"
-				"point" "3 -448 -16 -352"
+				"point" "0 -448 -32 -416"
+				"point" "1 -1376 -32 -416"
+				"point" "2 -1376 -32 -352"
+				"point" "3 -448 -32 -352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7615,17 +7615,17 @@ entity
 		side
 		{
 			"id" "1513"
-			"plane" "(-448 48 -416) (-448 -16 -416) (-448 -16 -352)"
+			"plane" "(-448 32 -416) (-448 -32 -416) (-448 -32 -352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -448 48 -416"
-				"point" "1 -448 -16 -416"
-				"point" "2 -448 -16 -352"
-				"point" "3 -448 48 -352"
+				"point" "0 -448 32 -416"
+				"point" "1 -448 -32 -416"
+				"point" "2 -448 -32 -352"
+				"point" "3 -448 32 -352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -7768,18 +7768,18 @@ entity
 		side
 		{
 			"id" "1530"
-			"plane" "(1376 -16 -352) (448 -16 -352) (448 48 -352)"
+			"plane" "(1376 -32 -352) (448 -32 -352) (448 32 -352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -352"
-				"point" "1 448 -16 -352"
-				"point" "2 448 48 -352"
-				"point" "3 1376 48 -352"
+				"point" "0 1376 -32 -352"
+				"point" "1 448 -32 -352"
+				"point" "2 448 32 -352"
+				"point" "3 1376 32 -352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7787,18 +7787,18 @@ entity
 		side
 		{
 			"id" "1529"
-			"plane" "(1376 48 -416) (448 48 -416) (448 -16 -416)"
+			"plane" "(1376 32 -416) (448 32 -416) (448 -32 -416)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -416"
-				"point" "1 448 48 -416"
-				"point" "2 448 -16 -416"
-				"point" "3 1376 -16 -416"
+				"point" "0 1376 32 -416"
+				"point" "1 448 32 -416"
+				"point" "2 448 -32 -416"
+				"point" "3 1376 -32 -416"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7806,17 +7806,17 @@ entity
 		side
 		{
 			"id" "1528"
-			"plane" "(448 -16 -416) (448 48 -416) (448 48 -352)"
+			"plane" "(448 -32 -416) (448 32 -416) (448 32 -352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 448 -16 -416"
-				"point" "1 448 48 -416"
-				"point" "2 448 48 -352"
-				"point" "3 448 -16 -352"
+				"point" "0 448 -32 -416"
+				"point" "1 448 32 -416"
+				"point" "2 448 32 -352"
+				"point" "3 448 -32 -352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -7825,14 +7825,14 @@ entity
 		side
 		{
 			"id" "1527"
-			"plane" "(448 48 -416) (1376 48 -416) (1376 48 -352)"
+			"plane" "(448 32 -416) (1376 32 -416) (1376 32 -352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 448 48 -416"
-				"point" "1 1376 48 -416"
-				"point" "2 1376 48 -352"
-				"point" "3 448 48 -352"
+				"point" "0 448 32 -416"
+				"point" "1 1376 32 -416"
+				"point" "2 1376 32 -352"
+				"point" "3 448 32 -352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7844,14 +7844,14 @@ entity
 		side
 		{
 			"id" "1526"
-			"plane" "(1376 -16 -416) (448 -16 -416) (448 -16 -352)"
+			"plane" "(1376 -32 -416) (448 -32 -416) (448 -32 -352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -416"
-				"point" "1 448 -16 -416"
-				"point" "2 448 -16 -352"
-				"point" "3 1376 -16 -352"
+				"point" "0 1376 -32 -416"
+				"point" "1 448 -32 -416"
+				"point" "2 448 -32 -352"
+				"point" "3 1376 -32 -352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7863,17 +7863,17 @@ entity
 		side
 		{
 			"id" "1525"
-			"plane" "(1376 48 -416) (1376 -16 -416) (1376 -16 -352)"
+			"plane" "(1376 32 -416) (1376 -32 -416) (1376 -32 -352)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -416"
-				"point" "1 1376 -16 -416"
-				"point" "2 1376 -16 -352"
-				"point" "3 1376 48 -352"
+				"point" "0 1376 32 -416"
+				"point" "1 1376 -32 -416"
+				"point" "2 1376 -32 -352"
+				"point" "3 1376 32 -352"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -7892,18 +7892,18 @@ entity
 		side
 		{
 			"id" "1536"
-			"plane" "(-480 -16 -96) (-1376 -16 -96) (-1376 48 -96)"
+			"plane" "(-480 -32 -96) (-1376 -32 -96) (-1376 32 -96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -480 -16 -96"
-				"point" "1 -1376 -16 -96"
-				"point" "2 -1376 48 -96"
-				"point" "3 -480 48 -96"
+				"point" "0 -480 -32 -96"
+				"point" "1 -1376 -32 -96"
+				"point" "2 -1376 32 -96"
+				"point" "3 -480 32 -96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7911,18 +7911,18 @@ entity
 		side
 		{
 			"id" "1535"
-			"plane" "(-480 48 -160) (-1376 48 -160) (-1376 -16 -160)"
+			"plane" "(-480 32 -160) (-1376 32 -160) (-1376 -32 -160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -480 48 -160"
-				"point" "1 -1376 48 -160"
-				"point" "2 -1376 -16 -160"
-				"point" "3 -480 -16 -160"
+				"point" "0 -480 32 -160"
+				"point" "1 -1376 32 -160"
+				"point" "2 -1376 -32 -160"
+				"point" "3 -480 -32 -160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -7930,17 +7930,17 @@ entity
 		side
 		{
 			"id" "1534"
-			"plane" "(-1376 -16 -160) (-1376 48 -160) (-1376 48 -96)"
+			"plane" "(-1376 -32 -160) (-1376 32 -160) (-1376 32 -96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 -160"
-				"point" "1 -1376 48 -160"
-				"point" "2 -1376 48 -96"
-				"point" "3 -1376 -16 -96"
+				"point" "0 -1376 -32 -160"
+				"point" "1 -1376 32 -160"
+				"point" "2 -1376 32 -96"
+				"point" "3 -1376 -32 -96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -7949,14 +7949,14 @@ entity
 		side
 		{
 			"id" "1533"
-			"plane" "(-1376 48 -160) (-480 48 -160) (-480 48 -96)"
+			"plane" "(-1376 32 -160) (-480 32 -160) (-480 32 -96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 -160"
-				"point" "1 -480 48 -160"
-				"point" "2 -480 48 -96"
-				"point" "3 -1376 48 -96"
+				"point" "0 -1376 32 -160"
+				"point" "1 -480 32 -160"
+				"point" "2 -480 32 -96"
+				"point" "3 -1376 32 -96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7968,14 +7968,14 @@ entity
 		side
 		{
 			"id" "1532"
-			"plane" "(-480 -16 -160) (-1376 -16 -160) (-1376 -16 -96)"
+			"plane" "(-480 -32 -160) (-1376 -32 -160) (-1376 -32 -96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -480 -16 -160"
-				"point" "1 -1376 -16 -160"
-				"point" "2 -1376 -16 -96"
-				"point" "3 -480 -16 -96"
+				"point" "0 -480 -32 -160"
+				"point" "1 -1376 -32 -160"
+				"point" "2 -1376 -32 -96"
+				"point" "3 -480 -32 -96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -7987,17 +7987,17 @@ entity
 		side
 		{
 			"id" "1531"
-			"plane" "(-480 48 -160) (-480 -16 -160) (-480 -16 -96)"
+			"plane" "(-480 32 -160) (-480 -32 -160) (-480 -32 -96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -480 48 -160"
-				"point" "1 -480 -16 -160"
-				"point" "2 -480 -16 -96"
-				"point" "3 -480 48 -96"
+				"point" "0 -480 32 -160"
+				"point" "1 -480 -32 -160"
+				"point" "2 -480 -32 -96"
+				"point" "3 -480 32 -96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -8140,18 +8140,18 @@ entity
 		side
 		{
 			"id" "1548"
-			"plane" "(1376 -16 -96) (480 -16 -96) (480 48 -96)"
+			"plane" "(1376 -32 -96) (480 -32 -96) (480 32 -96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -96"
-				"point" "1 480 -16 -96"
-				"point" "2 480 48 -96"
-				"point" "3 1376 48 -96"
+				"point" "0 1376 -32 -96"
+				"point" "1 480 -32 -96"
+				"point" "2 480 32 -96"
+				"point" "3 1376 32 -96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8159,18 +8159,18 @@ entity
 		side
 		{
 			"id" "1547"
-			"plane" "(1376 48 -160) (480 48 -160) (480 -16 -160)"
+			"plane" "(1376 32 -160) (480 32 -160) (480 -32 -160)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -160"
-				"point" "1 480 48 -160"
-				"point" "2 480 -16 -160"
-				"point" "3 1376 -16 -160"
+				"point" "0 1376 32 -160"
+				"point" "1 480 32 -160"
+				"point" "2 480 -32 -160"
+				"point" "3 1376 -32 -160"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8178,17 +8178,17 @@ entity
 		side
 		{
 			"id" "1546"
-			"plane" "(480 -16 -160) (480 48 -160) (480 48 -96)"
+			"plane" "(480 -32 -160) (480 32 -160) (480 32 -96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 480 -16 -160"
-				"point" "1 480 48 -160"
-				"point" "2 480 48 -96"
-				"point" "3 480 -16 -96"
+				"point" "0 480 -32 -160"
+				"point" "1 480 32 -160"
+				"point" "2 480 32 -96"
+				"point" "3 480 -32 -96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -8197,14 +8197,14 @@ entity
 		side
 		{
 			"id" "1545"
-			"plane" "(480 48 -160) (1376 48 -160) (1376 48 -96)"
+			"plane" "(480 32 -160) (1376 32 -160) (1376 32 -96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 480 48 -160"
-				"point" "1 1376 48 -160"
-				"point" "2 1376 48 -96"
-				"point" "3 480 48 -96"
+				"point" "0 480 32 -160"
+				"point" "1 1376 32 -160"
+				"point" "2 1376 32 -96"
+				"point" "3 480 32 -96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -8216,14 +8216,14 @@ entity
 		side
 		{
 			"id" "1544"
-			"plane" "(1376 -16 -160) (480 -16 -160) (480 -16 -96)"
+			"plane" "(1376 -32 -160) (480 -32 -160) (480 -32 -96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -160"
-				"point" "1 480 -16 -160"
-				"point" "2 480 -16 -96"
-				"point" "3 1376 -16 -96"
+				"point" "0 1376 -32 -160"
+				"point" "1 480 -32 -160"
+				"point" "2 480 -32 -96"
+				"point" "3 1376 -32 -96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -8235,17 +8235,17 @@ entity
 		side
 		{
 			"id" "1543"
-			"plane" "(1376 48 -160) (1376 -16 -160) (1376 -16 -96)"
+			"plane" "(1376 32 -160) (1376 -32 -160) (1376 -32 -96)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -160"
-				"point" "1 1376 -16 -160"
-				"point" "2 1376 -16 -96"
-				"point" "3 1376 48 -96"
+				"point" "0 1376 32 -160"
+				"point" "1 1376 -32 -160"
+				"point" "2 1376 -32 -96"
+				"point" "3 1376 32 -96"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -8264,18 +8264,18 @@ entity
 		side
 		{
 			"id" "1554"
-			"plane" "(-416 -16 -608) (-1376 -16 -608) (-1376 48 -608)"
+			"plane" "(-416 -32 -608) (-1376 -32 -608) (-1376 32 -608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -416 -16 -608"
-				"point" "1 -1376 -16 -608"
-				"point" "2 -1376 48 -608"
-				"point" "3 -416 48 -608"
+				"point" "0 -416 -32 -608"
+				"point" "1 -1376 -32 -608"
+				"point" "2 -1376 32 -608"
+				"point" "3 -416 32 -608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8283,18 +8283,18 @@ entity
 		side
 		{
 			"id" "1553"
-			"plane" "(-416 48 -672) (-1376 48 -672) (-1376 -16 -672)"
+			"plane" "(-416 32 -672) (-1376 32 -672) (-1376 -32 -672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -416 48 -672"
-				"point" "1 -1376 48 -672"
-				"point" "2 -1376 -16 -672"
-				"point" "3 -416 -16 -672"
+				"point" "0 -416 32 -672"
+				"point" "1 -1376 32 -672"
+				"point" "2 -1376 -32 -672"
+				"point" "3 -416 -32 -672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8302,17 +8302,17 @@ entity
 		side
 		{
 			"id" "1552"
-			"plane" "(-1376 -16 -672) (-1376 48 -672) (-1376 48 -608)"
+			"plane" "(-1376 -32 -672) (-1376 32 -672) (-1376 32 -608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 -672"
-				"point" "1 -1376 48 -672"
-				"point" "2 -1376 48 -608"
-				"point" "3 -1376 -16 -608"
+				"point" "0 -1376 -32 -672"
+				"point" "1 -1376 32 -672"
+				"point" "2 -1376 32 -608"
+				"point" "3 -1376 -32 -608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -8321,14 +8321,14 @@ entity
 		side
 		{
 			"id" "1551"
-			"plane" "(-1376 48 -672) (-416 48 -672) (-416 48 -608)"
+			"plane" "(-1376 32 -672) (-416 32 -672) (-416 32 -608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 -672"
-				"point" "1 -416 48 -672"
-				"point" "2 -416 48 -608"
-				"point" "3 -1376 48 -608"
+				"point" "0 -1376 32 -672"
+				"point" "1 -416 32 -672"
+				"point" "2 -416 32 -608"
+				"point" "3 -1376 32 -608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -8340,14 +8340,14 @@ entity
 		side
 		{
 			"id" "1550"
-			"plane" "(-416 -16 -672) (-1376 -16 -672) (-1376 -16 -608)"
+			"plane" "(-416 -32 -672) (-1376 -32 -672) (-1376 -32 -608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -416 -16 -672"
-				"point" "1 -1376 -16 -672"
-				"point" "2 -1376 -16 -608"
-				"point" "3 -416 -16 -608"
+				"point" "0 -416 -32 -672"
+				"point" "1 -1376 -32 -672"
+				"point" "2 -1376 -32 -608"
+				"point" "3 -416 -32 -608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -8359,17 +8359,17 @@ entity
 		side
 		{
 			"id" "1549"
-			"plane" "(-416 48 -672) (-416 -16 -672) (-416 -16 -608)"
+			"plane" "(-416 32 -672) (-416 -32 -672) (-416 -32 -608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -416 48 -672"
-				"point" "1 -416 -16 -672"
-				"point" "2 -416 -16 -608"
-				"point" "3 -416 48 -608"
+				"point" "0 -416 32 -672"
+				"point" "1 -416 -32 -672"
+				"point" "2 -416 -32 -608"
+				"point" "3 -416 32 -608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -8512,18 +8512,18 @@ entity
 		side
 		{
 			"id" "1566"
-			"plane" "(1376 -16 -608) (416 -16 -608) (416 48 -608)"
+			"plane" "(1376 -32 -608) (416 -32 -608) (416 32 -608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -608"
-				"point" "1 416 -16 -608"
-				"point" "2 416 48 -608"
-				"point" "3 1376 48 -608"
+				"point" "0 1376 -32 -608"
+				"point" "1 416 -32 -608"
+				"point" "2 416 32 -608"
+				"point" "3 1376 32 -608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8531,18 +8531,18 @@ entity
 		side
 		{
 			"id" "1565"
-			"plane" "(1376 48 -672) (416 48 -672) (416 -16 -672)"
+			"plane" "(1376 32 -672) (416 32 -672) (416 -32 -672)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -672"
-				"point" "1 416 48 -672"
-				"point" "2 416 -16 -672"
-				"point" "3 1376 -16 -672"
+				"point" "0 1376 32 -672"
+				"point" "1 416 32 -672"
+				"point" "2 416 -32 -672"
+				"point" "3 1376 -32 -672"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8550,17 +8550,17 @@ entity
 		side
 		{
 			"id" "1564"
-			"plane" "(416 -16 -672) (416 48 -672) (416 48 -608)"
+			"plane" "(416 -32 -672) (416 32 -672) (416 32 -608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 416 -16 -672"
-				"point" "1 416 48 -672"
-				"point" "2 416 48 -608"
-				"point" "3 416 -16 -608"
+				"point" "0 416 -32 -672"
+				"point" "1 416 32 -672"
+				"point" "2 416 32 -608"
+				"point" "3 416 -32 -608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -8569,14 +8569,14 @@ entity
 		side
 		{
 			"id" "1563"
-			"plane" "(416 48 -672) (1376 48 -672) (1376 48 -608)"
+			"plane" "(416 32 -672) (1376 32 -672) (1376 32 -608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 416 48 -672"
-				"point" "1 1376 48 -672"
-				"point" "2 1376 48 -608"
-				"point" "3 416 48 -608"
+				"point" "0 416 32 -672"
+				"point" "1 1376 32 -672"
+				"point" "2 1376 32 -608"
+				"point" "3 416 32 -608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -8588,14 +8588,14 @@ entity
 		side
 		{
 			"id" "1562"
-			"plane" "(1376 -16 -672) (416 -16 -672) (416 -16 -608)"
+			"plane" "(1376 -32 -672) (416 -32 -672) (416 -32 -608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -672"
-				"point" "1 416 -16 -672"
-				"point" "2 416 -16 -608"
-				"point" "3 1376 -16 -608"
+				"point" "0 1376 -32 -672"
+				"point" "1 416 -32 -672"
+				"point" "2 416 -32 -608"
+				"point" "3 1376 -32 -608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -8607,17 +8607,17 @@ entity
 		side
 		{
 			"id" "1561"
-			"plane" "(1376 48 -672) (1376 -16 -672) (1376 -16 -608)"
+			"plane" "(1376 32 -672) (1376 -32 -672) (1376 -32 -608)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -672"
-				"point" "1 1376 -16 -672"
-				"point" "2 1376 -16 -608"
-				"point" "3 1376 48 -608"
+				"point" "0 1376 32 -672"
+				"point" "1 1376 -32 -672"
+				"point" "2 1376 -32 -608"
+				"point" "3 1376 32 -608"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -8636,18 +8636,18 @@ entity
 		side
 		{
 			"id" "1572"
-			"plane" "(-384 -16 -864) (-1376 -16 -864) (-1376 48 -864)"
+			"plane" "(-384 -32 -864) (-1376 -32 -864) (-1376 32 -864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -384 -16 -864"
-				"point" "1 -1376 -16 -864"
-				"point" "2 -1376 48 -864"
-				"point" "3 -384 48 -864"
+				"point" "0 -384 -32 -864"
+				"point" "1 -1376 -32 -864"
+				"point" "2 -1376 32 -864"
+				"point" "3 -384 32 -864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8655,18 +8655,18 @@ entity
 		side
 		{
 			"id" "1571"
-			"plane" "(-384 48 -928) (-1376 48 -928) (-1376 -16 -928)"
+			"plane" "(-384 32 -928) (-1376 32 -928) (-1376 -32 -928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -384 48 -928"
-				"point" "1 -1376 48 -928"
-				"point" "2 -1376 -16 -928"
-				"point" "3 -384 -16 -928"
+				"point" "0 -384 32 -928"
+				"point" "1 -1376 32 -928"
+				"point" "2 -1376 -32 -928"
+				"point" "3 -384 -32 -928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8674,17 +8674,17 @@ entity
 		side
 		{
 			"id" "1570"
-			"plane" "(-1376 -16 -928) (-1376 48 -928) (-1376 48 -864)"
+			"plane" "(-1376 -32 -928) (-1376 32 -928) (-1376 32 -864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 -928"
-				"point" "1 -1376 48 -928"
-				"point" "2 -1376 48 -864"
-				"point" "3 -1376 -16 -864"
+				"point" "0 -1376 -32 -928"
+				"point" "1 -1376 32 -928"
+				"point" "2 -1376 32 -864"
+				"point" "3 -1376 -32 -864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -8693,14 +8693,14 @@ entity
 		side
 		{
 			"id" "1569"
-			"plane" "(-1376 48 -928) (-384 48 -928) (-384 48 -864)"
+			"plane" "(-1376 32 -928) (-384 32 -928) (-384 32 -864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 -928"
-				"point" "1 -384 48 -928"
-				"point" "2 -384 48 -864"
-				"point" "3 -1376 48 -864"
+				"point" "0 -1376 32 -928"
+				"point" "1 -384 32 -928"
+				"point" "2 -384 32 -864"
+				"point" "3 -1376 32 -864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -8712,14 +8712,14 @@ entity
 		side
 		{
 			"id" "1568"
-			"plane" "(-384 -16 -928) (-1376 -16 -928) (-1376 -16 -864)"
+			"plane" "(-384 -32 -928) (-1376 -32 -928) (-1376 -32 -864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -384 -16 -928"
-				"point" "1 -1376 -16 -928"
-				"point" "2 -1376 -16 -864"
-				"point" "3 -384 -16 -864"
+				"point" "0 -384 -32 -928"
+				"point" "1 -1376 -32 -928"
+				"point" "2 -1376 -32 -864"
+				"point" "3 -384 -32 -864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -8731,17 +8731,17 @@ entity
 		side
 		{
 			"id" "1567"
-			"plane" "(-384 48 -928) (-384 -16 -928) (-384 -16 -864)"
+			"plane" "(-384 32 -928) (-384 -32 -928) (-384 -32 -864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -384 48 -928"
-				"point" "1 -384 -16 -928"
-				"point" "2 -384 -16 -864"
-				"point" "3 -384 48 -864"
+				"point" "0 -384 32 -928"
+				"point" "1 -384 -32 -928"
+				"point" "2 -384 -32 -864"
+				"point" "3 -384 32 -864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -8884,18 +8884,18 @@ entity
 		side
 		{
 			"id" "1584"
-			"plane" "(1376 -16 -864) (384 -16 -864) (384 48 -864)"
+			"plane" "(1376 -32 -864) (384 -32 -864) (384 32 -864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -864"
-				"point" "1 384 -16 -864"
-				"point" "2 384 48 -864"
-				"point" "3 1376 48 -864"
+				"point" "0 1376 -32 -864"
+				"point" "1 384 -32 -864"
+				"point" "2 384 32 -864"
+				"point" "3 1376 32 -864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8903,18 +8903,18 @@ entity
 		side
 		{
 			"id" "1583"
-			"plane" "(1376 48 -928) (384 48 -928) (384 -16 -928)"
+			"plane" "(1376 32 -928) (384 32 -928) (384 -32 -928)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -928"
-				"point" "1 384 48 -928"
-				"point" "2 384 -16 -928"
-				"point" "3 1376 -16 -928"
+				"point" "0 1376 32 -928"
+				"point" "1 384 32 -928"
+				"point" "2 384 -32 -928"
+				"point" "3 1376 -32 -928"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -8922,17 +8922,17 @@ entity
 		side
 		{
 			"id" "1582"
-			"plane" "(384 -16 -928) (384 48 -928) (384 48 -864)"
+			"plane" "(384 -32 -928) (384 32 -928) (384 32 -864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 384 -16 -928"
-				"point" "1 384 48 -928"
-				"point" "2 384 48 -864"
-				"point" "3 384 -16 -864"
+				"point" "0 384 -32 -928"
+				"point" "1 384 32 -928"
+				"point" "2 384 32 -864"
+				"point" "3 384 -32 -864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -8941,14 +8941,14 @@ entity
 		side
 		{
 			"id" "1581"
-			"plane" "(384 48 -928) (1376 48 -928) (1376 48 -864)"
+			"plane" "(384 32 -928) (1376 32 -928) (1376 32 -864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 384 48 -928"
-				"point" "1 1376 48 -928"
-				"point" "2 1376 48 -864"
-				"point" "3 384 48 -864"
+				"point" "0 384 32 -928"
+				"point" "1 1376 32 -928"
+				"point" "2 1376 32 -864"
+				"point" "3 384 32 -864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -8960,14 +8960,14 @@ entity
 		side
 		{
 			"id" "1580"
-			"plane" "(1376 -16 -928) (384 -16 -928) (384 -16 -864)"
+			"plane" "(1376 -32 -928) (384 -32 -928) (384 -32 -864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -928"
-				"point" "1 384 -16 -928"
-				"point" "2 384 -16 -864"
-				"point" "3 1376 -16 -864"
+				"point" "0 1376 -32 -928"
+				"point" "1 384 -32 -928"
+				"point" "2 384 -32 -864"
+				"point" "3 1376 -32 -864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -8979,17 +8979,17 @@ entity
 		side
 		{
 			"id" "1579"
-			"plane" "(1376 48 -928) (1376 -16 -928) (1376 -16 -864)"
+			"plane" "(1376 32 -928) (1376 -32 -928) (1376 -32 -864)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -928"
-				"point" "1 1376 -16 -928"
-				"point" "2 1376 -16 -864"
-				"point" "3 1376 48 -864"
+				"point" "0 1376 32 -928"
+				"point" "1 1376 -32 -928"
+				"point" "2 1376 -32 -864"
+				"point" "3 1376 32 -864"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -9008,18 +9008,18 @@ entity
 		side
 		{
 			"id" "1590"
-			"plane" "(-352 -16 -1120) (-1376 -16 -1120) (-1376 48 -1120)"
+			"plane" "(-352 -32 -1120) (-1376 -32 -1120) (-1376 32 -1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -352 -16 -1120"
-				"point" "1 -1376 -16 -1120"
-				"point" "2 -1376 48 -1120"
-				"point" "3 -352 48 -1120"
+				"point" "0 -352 -32 -1120"
+				"point" "1 -1376 -32 -1120"
+				"point" "2 -1376 32 -1120"
+				"point" "3 -352 32 -1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9027,18 +9027,18 @@ entity
 		side
 		{
 			"id" "1589"
-			"plane" "(-352 48 -1184) (-1376 48 -1184) (-1376 -16 -1184)"
+			"plane" "(-352 32 -1184) (-1376 32 -1184) (-1376 -32 -1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -352 48 -1184"
-				"point" "1 -1376 48 -1184"
-				"point" "2 -1376 -16 -1184"
-				"point" "3 -352 -16 -1184"
+				"point" "0 -352 32 -1184"
+				"point" "1 -1376 32 -1184"
+				"point" "2 -1376 -32 -1184"
+				"point" "3 -352 -32 -1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9046,17 +9046,17 @@ entity
 		side
 		{
 			"id" "1588"
-			"plane" "(-1376 -16 -1184) (-1376 48 -1184) (-1376 48 -1120)"
+			"plane" "(-1376 -32 -1184) (-1376 32 -1184) (-1376 32 -1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 -1184"
-				"point" "1 -1376 48 -1184"
-				"point" "2 -1376 48 -1120"
-				"point" "3 -1376 -16 -1120"
+				"point" "0 -1376 -32 -1184"
+				"point" "1 -1376 32 -1184"
+				"point" "2 -1376 32 -1120"
+				"point" "3 -1376 -32 -1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -9065,14 +9065,14 @@ entity
 		side
 		{
 			"id" "1587"
-			"plane" "(-1376 48 -1184) (-352 48 -1184) (-352 48 -1120)"
+			"plane" "(-1376 32 -1184) (-352 32 -1184) (-352 32 -1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 -1184"
-				"point" "1 -352 48 -1184"
-				"point" "2 -352 48 -1120"
-				"point" "3 -1376 48 -1120"
+				"point" "0 -1376 32 -1184"
+				"point" "1 -352 32 -1184"
+				"point" "2 -352 32 -1120"
+				"point" "3 -1376 32 -1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -9084,14 +9084,14 @@ entity
 		side
 		{
 			"id" "1586"
-			"plane" "(-352 -16 -1184) (-1376 -16 -1184) (-1376 -16 -1120)"
+			"plane" "(-352 -32 -1184) (-1376 -32 -1184) (-1376 -32 -1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -352 -16 -1184"
-				"point" "1 -1376 -16 -1184"
-				"point" "2 -1376 -16 -1120"
-				"point" "3 -352 -16 -1120"
+				"point" "0 -352 -32 -1184"
+				"point" "1 -1376 -32 -1184"
+				"point" "2 -1376 -32 -1120"
+				"point" "3 -352 -32 -1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -9103,17 +9103,17 @@ entity
 		side
 		{
 			"id" "1585"
-			"plane" "(-352 48 -1184) (-352 -16 -1184) (-352 -16 -1120)"
+			"plane" "(-352 32 -1184) (-352 -32 -1184) (-352 -32 -1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -352 48 -1184"
-				"point" "1 -352 -16 -1184"
-				"point" "2 -352 -16 -1120"
-				"point" "3 -352 48 -1120"
+				"point" "0 -352 32 -1184"
+				"point" "1 -352 -32 -1184"
+				"point" "2 -352 -32 -1120"
+				"point" "3 -352 32 -1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -9256,18 +9256,18 @@ entity
 		side
 		{
 			"id" "1602"
-			"plane" "(1376 -16 -1120) (352 -16 -1120) (352 48 -1120)"
+			"plane" "(1376 -32 -1120) (352 -32 -1120) (352 32 -1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -1120"
-				"point" "1 352 -16 -1120"
-				"point" "2 352 48 -1120"
-				"point" "3 1376 48 -1120"
+				"point" "0 1376 -32 -1120"
+				"point" "1 352 -32 -1120"
+				"point" "2 352 32 -1120"
+				"point" "3 1376 32 -1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9275,18 +9275,18 @@ entity
 		side
 		{
 			"id" "1601"
-			"plane" "(1376 48 -1184) (352 48 -1184) (352 -16 -1184)"
+			"plane" "(1376 32 -1184) (352 32 -1184) (352 -32 -1184)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -1184"
-				"point" "1 352 48 -1184"
-				"point" "2 352 -16 -1184"
-				"point" "3 1376 -16 -1184"
+				"point" "0 1376 32 -1184"
+				"point" "1 352 32 -1184"
+				"point" "2 352 -32 -1184"
+				"point" "3 1376 -32 -1184"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9294,17 +9294,17 @@ entity
 		side
 		{
 			"id" "1600"
-			"plane" "(352 -16 -1184) (352 48 -1184) (352 48 -1120)"
+			"plane" "(352 -32 -1184) (352 32 -1184) (352 32 -1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 352 -16 -1184"
-				"point" "1 352 48 -1184"
-				"point" "2 352 48 -1120"
-				"point" "3 352 -16 -1120"
+				"point" "0 352 -32 -1184"
+				"point" "1 352 32 -1184"
+				"point" "2 352 32 -1120"
+				"point" "3 352 -32 -1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -9313,14 +9313,14 @@ entity
 		side
 		{
 			"id" "1599"
-			"plane" "(352 48 -1184) (1376 48 -1184) (1376 48 -1120)"
+			"plane" "(352 32 -1184) (1376 32 -1184) (1376 32 -1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 352 48 -1184"
-				"point" "1 1376 48 -1184"
-				"point" "2 1376 48 -1120"
-				"point" "3 352 48 -1120"
+				"point" "0 352 32 -1184"
+				"point" "1 1376 32 -1184"
+				"point" "2 1376 32 -1120"
+				"point" "3 352 32 -1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -9332,14 +9332,14 @@ entity
 		side
 		{
 			"id" "1598"
-			"plane" "(1376 -16 -1184) (352 -16 -1184) (352 -16 -1120)"
+			"plane" "(1376 -32 -1184) (352 -32 -1184) (352 -32 -1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -1184"
-				"point" "1 352 -16 -1184"
-				"point" "2 352 -16 -1120"
-				"point" "3 1376 -16 -1120"
+				"point" "0 1376 -32 -1184"
+				"point" "1 352 -32 -1184"
+				"point" "2 352 -32 -1120"
+				"point" "3 1376 -32 -1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -9351,17 +9351,17 @@ entity
 		side
 		{
 			"id" "1597"
-			"plane" "(1376 48 -1184) (1376 -16 -1184) (1376 -16 -1120)"
+			"plane" "(1376 32 -1184) (1376 -32 -1184) (1376 -32 -1120)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -1184"
-				"point" "1 1376 -16 -1184"
-				"point" "2 1376 -16 -1120"
-				"point" "3 1376 48 -1120"
+				"point" "0 1376 32 -1184"
+				"point" "1 1376 -32 -1184"
+				"point" "2 1376 -32 -1120"
+				"point" "3 1376 32 -1120"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -9380,18 +9380,18 @@ entity
 		side
 		{
 			"id" "1608"
-			"plane" "(-320 -16 -1376) (-1376 -16 -1376) (-1376 48 -1376)"
+			"plane" "(-320 -32 -1376) (-1376 -32 -1376) (-1376 32 -1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -320 -16 -1376"
-				"point" "1 -1376 -16 -1376"
-				"point" "2 -1376 48 -1376"
-				"point" "3 -320 48 -1376"
+				"point" "0 -320 -32 -1376"
+				"point" "1 -1376 -32 -1376"
+				"point" "2 -1376 32 -1376"
+				"point" "3 -320 32 -1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9399,18 +9399,18 @@ entity
 		side
 		{
 			"id" "1607"
-			"plane" "(-320 48 -1440) (-1376 48 -1440) (-1376 -16 -1440)"
+			"plane" "(-320 32 -1440) (-1376 32 -1440) (-1376 -32 -1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -320 48 -1440"
-				"point" "1 -1376 48 -1440"
-				"point" "2 -1376 -16 -1440"
-				"point" "3 -320 -16 -1440"
+				"point" "0 -320 32 -1440"
+				"point" "1 -1376 32 -1440"
+				"point" "2 -1376 -32 -1440"
+				"point" "3 -320 -32 -1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9418,17 +9418,17 @@ entity
 		side
 		{
 			"id" "1606"
-			"plane" "(-1376 -16 -1440) (-1376 48 -1440) (-1376 48 -1376)"
+			"plane" "(-1376 -32 -1440) (-1376 32 -1440) (-1376 32 -1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 -16 -1440"
-				"point" "1 -1376 48 -1440"
-				"point" "2 -1376 48 -1376"
-				"point" "3 -1376 -16 -1376"
+				"point" "0 -1376 -32 -1440"
+				"point" "1 -1376 32 -1440"
+				"point" "2 -1376 32 -1376"
+				"point" "3 -1376 -32 -1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -9437,14 +9437,14 @@ entity
 		side
 		{
 			"id" "1605"
-			"plane" "(-1376 48 -1440) (-320 48 -1440) (-320 48 -1376)"
+			"plane" "(-1376 32 -1440) (-320 32 -1440) (-320 32 -1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -1376 48 -1440"
-				"point" "1 -320 48 -1440"
-				"point" "2 -320 48 -1376"
-				"point" "3 -1376 48 -1376"
+				"point" "0 -1376 32 -1440"
+				"point" "1 -320 32 -1440"
+				"point" "2 -320 32 -1376"
+				"point" "3 -1376 32 -1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -9456,14 +9456,14 @@ entity
 		side
 		{
 			"id" "1604"
-			"plane" "(-320 -16 -1440) (-1376 -16 -1440) (-1376 -16 -1376)"
+			"plane" "(-320 -32 -1440) (-1376 -32 -1440) (-1376 -32 -1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -320 -16 -1440"
-				"point" "1 -1376 -16 -1440"
-				"point" "2 -1376 -16 -1376"
-				"point" "3 -320 -16 -1376"
+				"point" "0 -320 -32 -1440"
+				"point" "1 -1376 -32 -1440"
+				"point" "2 -1376 -32 -1376"
+				"point" "3 -320 -32 -1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -9475,17 +9475,17 @@ entity
 		side
 		{
 			"id" "1603"
-			"plane" "(-320 48 -1440) (-320 -16 -1440) (-320 -16 -1376)"
+			"plane" "(-320 32 -1440) (-320 -32 -1440) (-320 -32 -1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 -320 48 -1440"
-				"point" "1 -320 -16 -1440"
-				"point" "2 -320 -16 -1376"
-				"point" "3 -320 48 -1376"
+				"point" "0 -320 32 -1440"
+				"point" "1 -320 -32 -1440"
+				"point" "2 -320 -32 -1376"
+				"point" "3 -320 32 -1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -9628,18 +9628,18 @@ entity
 		side
 		{
 			"id" "1620"
-			"plane" "(1376 -16 -1376) (320 -16 -1376) (320 48 -1376)"
+			"plane" "(1376 -32 -1376) (320 -32 -1376) (320 32 -1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -1376"
-				"point" "1 320 -16 -1376"
-				"point" "2 320 48 -1376"
-				"point" "3 1376 48 -1376"
+				"point" "0 1376 -32 -1376"
+				"point" "1 320 -32 -1376"
+				"point" "2 320 32 -1376"
+				"point" "3 1376 32 -1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9647,18 +9647,18 @@ entity
 		side
 		{
 			"id" "1619"
-			"plane" "(1376 48 -1440) (320 48 -1440) (320 -16 -1440)"
+			"plane" "(1376 32 -1440) (320 32 -1440) (320 -32 -1440)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -1440"
-				"point" "1 320 48 -1440"
-				"point" "2 320 -16 -1440"
-				"point" "3 1376 -16 -1440"
+				"point" "0 1376 32 -1440"
+				"point" "1 320 32 -1440"
+				"point" "2 320 -32 -1440"
+				"point" "3 1376 -32 -1440"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP6"
 			"uaxis" "[-1 0 0 0] 0.5"
-			"vaxis" "[0 1 0 -96] 0.5"
+			"vaxis" "[0 1 0 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9666,17 +9666,17 @@ entity
 		side
 		{
 			"id" "1618"
-			"plane" "(320 -16 -1440) (320 48 -1440) (320 48 -1376)"
+			"plane" "(320 -32 -1440) (320 32 -1440) (320 32 -1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 320 -16 -1440"
-				"point" "1 320 48 -1440"
-				"point" "2 320 48 -1376"
-				"point" "3 320 -16 -1376"
+				"point" "0 320 -32 -1440"
+				"point" "1 320 32 -1440"
+				"point" "2 320 32 -1376"
+				"point" "3 320 -32 -1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -9685,14 +9685,14 @@ entity
 		side
 		{
 			"id" "1617"
-			"plane" "(320 48 -1440) (1376 48 -1440) (1376 48 -1376)"
+			"plane" "(320 32 -1440) (1376 32 -1440) (1376 32 -1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 320 48 -1440"
-				"point" "1 1376 48 -1440"
-				"point" "2 1376 48 -1376"
-				"point" "3 320 48 -1376"
+				"point" "0 320 32 -1440"
+				"point" "1 1376 32 -1440"
+				"point" "2 1376 32 -1376"
+				"point" "3 320 32 -1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -9704,14 +9704,14 @@ entity
 		side
 		{
 			"id" "1616"
-			"plane" "(1376 -16 -1440) (320 -16 -1440) (320 -16 -1376)"
+			"plane" "(1376 -32 -1440) (320 -32 -1440) (320 -32 -1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 -16 -1440"
-				"point" "1 320 -16 -1440"
-				"point" "2 320 -16 -1376"
-				"point" "3 1376 -16 -1376"
+				"point" "0 1376 -32 -1440"
+				"point" "1 320 -32 -1440"
+				"point" "2 320 -32 -1376"
+				"point" "3 1376 -32 -1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP7"
 			"uaxis" "[-1 0 0 64] 0.5"
@@ -9723,17 +9723,17 @@ entity
 		side
 		{
 			"id" "1615"
-			"plane" "(1376 48 -1440) (1376 -16 -1440) (1376 -16 -1376)"
+			"plane" "(1376 32 -1440) (1376 -32 -1440) (1376 -32 -1376)"
 			point_data
 			{
 				"numpts" "4"
-				"point" "0 1376 48 -1440"
-				"point" "1 1376 -16 -1440"
-				"point" "2 1376 -16 -1376"
-				"point" "3 1376 48 -1376"
+				"point" "0 1376 32 -1440"
+				"point" "1 1376 -32 -1440"
+				"point" "2 1376 -32 -1376"
+				"point" "3 1376 32 -1376"
 			}
 			"material" "MOMENTUMFLATTEXTURES/REGULAR/GREYSTEP1"
-			"uaxis" "[0 -1 0 96] 0.5"
+			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"

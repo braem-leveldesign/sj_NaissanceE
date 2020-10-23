@@ -10,5 +10,5 @@ http://www.youtube.com/watch?v=wJOlGrP5HFY
 
 ![](screenshots/669270_20201012013536_1.png)
 ![](screenshots/669270_20201012013851_1.png)
-![](screenshots/669270_20201012013609_1.png)
-![](screenshots/669270_20201012013819_1.png)
+![](screenshots/20201021181628_1.jpg)
+![](screenshots/20201021183307_1.jpg)

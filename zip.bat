@@ -1,1 +1,1 @@
-"C:\Users\brae\MomentumDev\bin\bspzip.exe" -game "C:\Users\brae\MomentumDev\momentum" -repack -compress "sj_NaissanceE.bsp"
+"D:\Chaos\Momentum\game\bin\win64\bspzip.exe" -game "D:\Chaos\Momentum\game\momentum" -repack -compress "sj_NaissanceE.bsp"

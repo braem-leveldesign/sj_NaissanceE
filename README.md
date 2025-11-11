@@ -8,7 +8,8 @@ http://www.youtube.com/watch?v=wJOlGrP5HFY
 
 ## Screenshots
 
-![](screenshots/669270_20201012013536_1.png)
-![](screenshots/669270_20201012013851_1.png)
-![](screenshots/20201021181628_1.jpg)
-![](screenshots/20201021183307_1.jpg)
+![](screenshots/7.png)
+![](screenshots/6.png)
+![](screenshots/5.jpg)
+![](screenshots/2.jpg)
+![](screenshots/4.jpg)

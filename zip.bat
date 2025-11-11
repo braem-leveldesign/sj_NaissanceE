@@ -1,1 +1,1 @@
-"D:\Chaos\Momentum\game\bin\win64\bspzip.exe" -game "D:\Chaos\Momentum\game\momentum" -repack -compress "sj_NaissanceE.bsp"
+"G:\SteamLibrary\steamapps\common\Momentum Mod Playtest\bin\win64\bspzip.exe" -game "G:\SteamLibrary\steamapps\common\Momentum Mod Playtest\momentum" -repack -compress "sj_NaissanceE.bsp"

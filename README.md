@@ -10,6 +10,6 @@ A sticky jump map for Momentum Mod inspired by the game [NaissanceE](https://sto
 
 ![](screenshots/7.png)
 ![](screenshots/6.png)
-![](screenshots/5.jpg)
-![](screenshots/2.jpg)
-![](screenshots/4.jpg)
+![](screenshots/5.png)
+![](screenshots/2.png)
+![](screenshots/4.png)
